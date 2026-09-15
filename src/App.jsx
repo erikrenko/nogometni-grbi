@@ -19,6 +19,12 @@ const CLUB_STYLE = {
 };
 const DEFAULT_STYLE = { primary: "#2F86D6", secondary: "#FFD23F", flag: null };
 
+// Only Roma has a crest image uploaded so far — add more entries here as you
+// commit more files to src/grbi/, e.g. "FC BARCELONA": barcelonaCrest.
+const CLUB_CRESTS = {
+  "AS ROMA": romaCrest,
+};
+
 function GlobalStyle() {
   return (
     <style>{`
@@ -128,9 +134,22 @@ function Card({ children, accent, style }) {
 }
 
 export default function App() {
-  const club = clubsData.find((c) => c.name === "AS ROMA");
+  const startIndex = clubsData.findIndex((c) => c.name === "AS ROMA");
+  const [index, setIndex] = useState(startIndex >= 0 ? startIndex : 0);
+  const club = clubsData[index];
   const style = CLUB_STYLE[club.name] || DEFAULT_STYLE;
+  const crestImg = CLUB_CRESTS[club.name] || null;
+  const sentences = club.info_sl.split(/(?<=\.)\s+/).filter(Boolean);
   const [showCrestZoom, setShowCrestZoom] = useState(false);
+
+  const goPrev = () => {
+    setShowCrestZoom(false);
+    setIndex((i) => (i - 1 + clubsData.length) % clubsData.length);
+  };
+  const goNext = () => {
+    setShowCrestZoom(false);
+    setIndex((i) => (i + 1) % clubsData.length);
+  };
 
   return (
     <div style={{ "--primary": style.primary, "--secondary": style.secondary, minHeight: "100vh", width: "100%", position: "relative", overflow: "hidden", fontFamily: FONT_BODY }}>
@@ -187,7 +206,7 @@ export default function App() {
           <div style={{ display: "flex", alignItems: "center", gap: "18px", flexWrap: "wrap" }}>
             <div style={{ position: "relative", flexShrink: 0 }}>
               <button
-                onClick={() => setShowCrestZoom(true)}
+                onClick={() => crestImg && setShowCrestZoom(true)}
                 aria-label="Poglej grb v velikem prikazu"
                 style={{
                   width: "150px",
@@ -200,34 +219,40 @@ export default function App() {
                   alignItems: "center",
                   justifyContent: "center",
                   padding: "10px",
-                  cursor: "pointer",
+                  cursor: crestImg ? "pointer" : "default",
                   transition: "transform 120ms ease",
                 }}
-                onMouseDown={(e) => (e.currentTarget.style.transform = "translateY(2px) scale(0.98)")}
-                onMouseUp={(e) => (e.currentTarget.style.transform = "translateY(0) scale(1)")}
-                onMouseLeave={(e) => (e.currentTarget.style.transform = "translateY(0) scale(1)")}
+                onMouseDown={(e) => { if (crestImg) e.currentTarget.style.transform = "translateY(2px) scale(0.98)"; }}
+                onMouseUp={(e) => { if (crestImg) e.currentTarget.style.transform = "translateY(0) scale(1)"; }}
+                onMouseLeave={(e) => { if (crestImg) e.currentTarget.style.transform = "translateY(0) scale(1)"; }}
               >
-                <img src={romaCrest} alt={club.name + " grb"} style={{ width: "100%", height: "100%", objectFit: "contain" }} />
+                {crestImg ? (
+                  <img src={crestImg} alt={club.name + " grb"} style={{ width: "100%", height: "100%", objectFit: "contain" }} />
+                ) : (
+                  <span style={{ fontSize: "56px" }}>⚽</span>
+                )}
               </button>
-              <div
-                style={{
-                  position: "absolute",
-                  bottom: "2px",
-                  right: "2px",
-                  width: "34px",
-                  height: "34px",
-                  borderRadius: "50%",
-                  background: "#FFD23F",
-                  border: "2px solid #10243E",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: "16px",
-                  pointerEvents: "none",
-                }}
-              >
-                🔍
-              </div>
+              {crestImg && (
+                <div
+                  style={{
+                    position: "absolute",
+                    bottom: "2px",
+                    right: "2px",
+                    width: "34px",
+                    height: "34px",
+                    borderRadius: "50%",
+                    background: "#FFD23F",
+                    border: "2px solid #10243E",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: "16px",
+                    pointerEvents: "none",
+                  }}
+                >
+                  🔍
+                </div>
+              )}
             </div>
             <div>
               <div
@@ -273,9 +298,15 @@ export default function App() {
             >
               💡 Kaj prikazuje grb?
             </div>
-            <p className="ng-app" style={{ fontSize: "16px", lineHeight: 1.5, color: INK }}>
-              {club.info_sl}
-            </p>
+            {sentences.map((sentence, i) => (
+              <p
+                key={i}
+                className="ng-app"
+                style={{ fontSize: "16px", lineHeight: 1.5, color: INK, marginBottom: i === sentences.length - 1 ? 0 : "10px" }}
+              >
+                {sentence}
+              </p>
+            ))}
           </Card>
 
           <div style={{ position: "relative" }}>
@@ -312,10 +343,16 @@ export default function App() {
             </Card>
           </div>
         </div>
+
+        {/* Bottom nav */}
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "26px", gap: "12px", flexWrap: "wrap" }}>
+          <GameButton color="#2F86D6" onClick={goPrev}>← Prejšnji grb</GameButton>
+          <GameButton color="#2FAE60" onClick={goNext}>Naslednji klub →</GameButton>
+        </div>
       </div>
 
       {/* Crest zoom popup */}
-      {showCrestZoom && (
+      {showCrestZoom && crestImg && (
         <div
           onClick={() => setShowCrestZoom(false)}
           style={{ position: "fixed", inset: 0, background: "rgba(6,20,10,0.7)", display: "flex", alignItems: "center", justifyContent: "center", zIndex: 20, padding: "24px" }}
@@ -335,7 +372,7 @@ export default function App() {
               gap: "16px",
             }}
           >
-            <img src={romaCrest} alt={club.name + " grb"} style={{ width: "100%", maxWidth: "340px", height: "auto", objectFit: "contain" }} />
+            <img src={crestImg} alt={club.name + " grb"} style={{ width: "100%", maxWidth: "340px", height: "auto", objectFit: "contain" }} />
             <GameButton color="#D9455F" onClick={() => setShowCrestZoom(false)}>Zapri</GameButton>
           </div>
         </div>
