@@ -2,28 +2,10 @@ import { useState } from "react";
 import clubsData from "./clubs.json";
 import background from "./slike/background.webp";
 import mascot from "./slike/mascot.png";
-import romaCrest from "./grbi/italy_roma_700x700.football-logos.cc.png";
 
 const FONT_DISPLAY = "'Baloo 2', system-ui, sans-serif";
 const FONT_BODY = "'Nunito', system-ui, sans-serif";
 const INK = "#10243E";
-
-// Club colors + flag codes aren't in clubs.json yet, so they live here for now.
-// Once more crests are wired in, move these into clubs.json as fields per club.
-const CLUB_STYLE = {
-  "SEVILLA FC": { primary: "#D2001C", secondary: "#FFFFFF", flag: "es" },
-  "REAL BETIS": { primary: "#00954C", secondary: "#FFFFFF", flag: "es" },
-  "ATHLETIC CLUB": { primary: "#DA291C", secondary: "#000000", flag: "es" },
-  "ATLÉTICO MADRID": { primary: "#CB3524", secondary: "#272E61", flag: "es" },
-  "AS ROMA": { primary: "#8B1E2D", secondary: "#F0B429", flag: "it" },
-};
-const DEFAULT_STYLE = { primary: "#2F86D6", secondary: "#FFD23F", flag: null };
-
-// Only Roma has a crest image uploaded so far — add more entries here as you
-// commit more files to src/grbi/, e.g. "FC BARCELONA": barcelonaCrest.
-const CLUB_CRESTS = {
-  "AS ROMA": romaCrest,
-};
 
 function GlobalStyle() {
   return (
@@ -137,8 +119,9 @@ export default function App() {
   const startIndex = clubsData.findIndex((c) => c.name === "AS ROMA");
   const [index, setIndex] = useState(startIndex >= 0 ? startIndex : 0);
   const club = clubsData[index];
-  const style = CLUB_STYLE[club.name] || DEFAULT_STYLE;
-  const crestImg = CLUB_CRESTS[club.name] || null;
+  const primary = club.primaryColor || "#2F86D6";
+  const secondary = club.secondaryColor || "#FFD23F";
+  const crestImg = club.crest ? `/grbi/${club.crest}` : null;
   const sentences = club.info_sl.split(/(?<=\.)\s+/).filter(Boolean);
   const [showCrestZoom, setShowCrestZoom] = useState(false);
 
@@ -152,7 +135,7 @@ export default function App() {
   };
 
   return (
-    <div style={{ "--primary": style.primary, "--secondary": style.secondary, minHeight: "100vh", width: "100%", position: "relative", overflow: "hidden", fontFamily: FONT_BODY }}>
+    <div style={{ "--primary": primary, "--secondary": secondary, minHeight: "100vh", width: "100%", position: "relative", overflow: "hidden", fontFamily: FONT_BODY }}>
       <GlobalStyle />
 
       {/* Top bar */}
@@ -270,7 +253,7 @@ export default function App() {
                 </h1>
               </div>
               <div style={{ display: "flex", gap: "10px", flexWrap: "wrap", marginTop: "12px" }}>
-                <Pill><Flag code={style.flag} /> {club.country}</Pill>
+                <Pill><Flag code={club.flagCode} /> {club.country}</Pill>
                 <Pill>📅 Ustanovljen {club.founded_year}</Pill>
               </div>
             </div>
@@ -279,7 +262,7 @@ export default function App() {
 
         {/* Cards */}
         <div className="ce-cards" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px", marginTop: "16px" }}>
-          <Card accent={style.primary}>
+          <Card accent={primary}>
             <div
               className="ng-app"
               style={{
@@ -313,7 +296,7 @@ export default function App() {
             <div className="ce-mascot" style={{ position: "absolute", top: "-44px", right: "24px", width: "84px", height: "84px", zIndex: 3 }}>
               <img src={mascot} alt="Maskota" style={{ width: "100%", height: "100%", objectFit: "contain", display: "block", filter: "drop-shadow(0 3px 3px rgba(0,0,0,0.2))" }} />
             </div>
-            <Card accent={style.secondary} style={{ background: "#FFF7DC" }}>
+            <Card accent={secondary} style={{ background: "#FFF7DC" }}>
               <div
                 className="ng-app"
                 style={{
