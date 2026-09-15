@@ -8,7 +8,12 @@
       "SEDANJI GRB JE BIL ZASNOVAN LETA 1921.",
       "ČRKE SFC SO ZAČETNICE IMENA SEVILLA FÚTBOL CLUB.",
       "SVETNIKI NA GRBU SO POVEZANI Z MESTNIM GRBOM."
-    ]
+    ],
+    "crest": "spain_sevilla_700x700.football-logos.cc.png",
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "es",
+    "city": "Sevilla"
   },
   {
     "name": "REAL BETIS",
@@ -19,7 +24,12 @@
       "BETIS JE STARO RIMSKO IME ZA REKO GUADALQUIVIR.",
       "KLUB PRIHAJA IZ SEVILLE.",
       "REAL BETIS JE EDEN OD DVEH VELIKIH KLUBOV IZ SEVILLE."
-    ]
+    ],
+    "crest": "spain_real-betis_700x700.football-logos.cc.png",
+    "primaryColor": "#00954C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "es",
+    "city": "Sevilla"
   },
   {
     "name": "ATHLETIC CLUB",
@@ -30,7 +40,12 @@
       "KLUB JE ZNAN PO TEM, DA JE TRADICIONALNO UPORABLJAL IGRALCE IZ BASKIJE IN NJENE NOGOMETNE ŠOLE.",
       "DREVO GERNIKA JE POMEMBEN SIMBOL BASKOVSKE ZGODOVINE.",
       "GRB VSEBUJE VEČ SIMBOLOV MESTA BILBAO."
-    ]
+    ],
+    "crest": "spain_athletic-club_700x700.football-logos.cc.png",
+    "primaryColor": "#DA291C",
+    "secondaryColor": "#000000",
+    "flagCode": "es",
+    "city": "Bilbao"
   },
   {
     "name": "ATLÉTICO MADRID",
@@ -41,7 +56,12 @@
       "MEDVED IN JAGODIČNICA STA TUDI NA GRBU MESTA MADRID.",
       "NA GRBU JE SEDEM ZVEZD.",
       "VZDEVEK KLUBA JE 'LOS COLCHONEROS'."
-    ]
+    ],
+    "crest": "spain_atletico-madrid_700x700.football-logos.cc.png",
+    "primaryColor": "#CB3524",
+    "secondaryColor": "#272E61",
+    "flagCode": "es",
+    "city": "Madrid"
   },
   {
     "name": "PARMA CALCIO",
@@ -52,7 +72,12 @@
       "RUMENA IN MODRA STA BARVI, POVEZANI Z ZGODOVINO PARME.",
       "ČRNI KRIŽ SE JE NA KLUBSKIH DRESIH POJAVIL ŽE LETA 1913.",
       "PARMA JE ZNANA PO VZDEVKU 'GIALLOBLÙ' – RUMENO-MODRI."
-    ]
+    ],
+    "crest": "italy_parma_700x700.football-logos.cc.png",
+    "primaryColor": "#FFDD00",
+    "secondaryColor": "#003DA5",
+    "flagCode": "it",
+    "city": "Parma"
   },
   {
     "name": "VENEZIA FC",
@@ -63,7 +88,12 @@
       "KRILATI LEV JE SIMBOL BENETK.",
       "VENEZIA JE ZNANA PO ČRNI, ZELENI IN ORANŽNI BARVI.",
       "LEV SVETEGA MARKA SE POJAVLJA NA ŠTEVILNIH STAVBAH IN SPOMENIKIH V BENETKAH."
-    ]
+    ],
+    "crest": "italy_venezia_700x700.football-logos.cc.png",
+    "primaryColor": "#1E3C70",
+    "secondaryColor": "#FF7900",
+    "flagCode": "it",
+    "city": "Benetke"
   },
   {
     "name": "UC SAMPDORIA",
@@ -74,7 +104,12 @@
       "BACICCIA JE GENOVSKO DOMAČE IME ZA GIOVANNIJA BATTISTA.",
       "SAMPDORIA JE NASTALA Z ZDRUŽITVIJO SAMPERDARENESE IN ANDREA DORIA.",
       "KLUB IGRA V GENOVI, V MESTU Z DOLGO POMORSKO TRADICIJO."
-    ]
+    ],
+    "crest": "italy_sampdoria_700x700.football-logos.cc.png",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#000000",
+    "flagCode": "it",
+    "city": "Genova"
   },
   {
     "name": "SS LAZIO",
@@ -85,7 +120,12 @@
       "KLUB JE IZ RIMA.",
       "VZDEVEK LAZIJA JE 'BIANCOCELESTI' – BELO-NEBESNO MODRI.",
       "OREL JE EDEN GLAVNIH SIMBOLOV KLUBA."
-    ]
+    ],
+    "crest": "italy_lazio_700x700.football-logos.cc.png",
+    "primaryColor": "#87CEEB",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "it",
+    "city": "Rim"
   },
   {
     "name": "ATALANTA BC",
@@ -96,7 +136,12 @@
       "ATALANTA JE JUNAKINJA IZ GRŠKE MITOLOGIJE.",
       "KLUB PRIHAJA IZ BERGAMA.",
       "VZDEVEK KLUBA JE 'LA DEA' – BOGINJA."
-    ]
+    ],
+    "crest": "italy_atalanta_700x700.football-logos.cc.png",
+    "primaryColor": "#1C4694",
+    "secondaryColor": "#000000",
+    "flagCode": "it",
+    "city": "Bergamo"
   },
   {
     "name": "CAGLIARI CALCIO",
@@ -107,7 +152,12 @@
       "CAGLIARI JE GLAVNO MESTO OTOKA SARDINIJA.",
       "ŠTIRI GLAVE SO SIMBOL SARDINIJE.",
       "KLUB JE LETA 1970 OSVOJIL EDINI NASLOV ITALIJANSKEGA PRVAKA."
-    ]
+    ],
+    "crest": "italy_cagliari_700x700.football-logos.cc.png",
+    "primaryColor": "#B71C1C",
+    "secondaryColor": "#003DA5",
+    "flagCode": "it",
+    "city": "Cagliari"
   },
   {
     "name": "LR VICENZA",
@@ -118,7 +168,12 @@
       "KLUB PRIHAJA IZ VICENZE V VENETU.",
       "VZDEVEK KLUBA JE 'BIANCOROSSI' – BELO-RDEČI.",
       "VICENZA JE V SEZONI 1996/97 OSVOJILA COPPA ITALIA."
-    ]
+    ],
+    "crest": "italy_vicenza_700x700.football-logos.cc.png",
+    "primaryColor": "#B71C1C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "it",
+    "city": "Vicenza"
   },
   {
     "name": "SSC BARI",
@@ -129,7 +184,12 @@
       "PETELIN JE KLUBSKA MASKOTA.",
       "BARI JE GLAVNO MESTO APULIJE.",
       "KLUB JE ZNAN PO VZDEVKU 'I GALLETTI'."
-    ]
+    ],
+    "crest": "italy_bari_700x700.football-logos.cc.png",
+    "primaryColor": "#B71C1C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "it",
+    "city": "Bari"
   },
   {
     "name": "PERUGIA CALCIO",
@@ -140,7 +200,12 @@
       "GRIFFIN JE SIMBOL MESTA PERUGIA.",
       "GRIFFIN JE MITIČNA MEŠANICA LEVA IN ORLA.",
       "KLUBSKI VZDEVEK JE 'GRIFONI'."
-    ]
+    ],
+    "crest": null,
+    "primaryColor": "#B71C1C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "it",
+    "city": "Perugia"
   },
   {
     "name": "HAJDUK SPLIT",
@@ -151,7 +216,12 @@
       "KLUB JE BIL USTANOVLJEN V PRAGI, NATO PA SE JE PRESELIL V SPLIT.",
       "HAJDUK JE IZ SPLITA OB JADRANSKEM MORJU.",
       "KLUBSKI VZDEVEK JE 'BIJELI'."
-    ]
+    ],
+    "crest": "croatia_hajduk-split_700x700.football-logos.cc.png",
+    "primaryColor": "#B71C1C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "hr",
+    "city": "Split"
   },
   {
     "name": "GNK DINAMO ZAGREB",
@@ -162,7 +232,12 @@
       "DINAMO JE IZ ZAGREBA.",
       "MODRA JE TRADICIONALNA BARVA KLUBA.",
       "KLUB IGRA NA STADIONU MAKSIMIR."
-    ]
+    ],
+    "crest": "croatia_dinamo-zagreb_700x700.football-logos.cc.png",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "hr",
+    "city": "Zagreb"
   },
   {
     "name": "NK OLIMPIJA LJUBLJANA",
@@ -173,7 +248,12 @@
       "ZMAJ JE SIMBOL LJUBLJANE.",
       "KLUB JE IZ LJUBLJANE.",
       "OLIMPIJA IGRA V ZELENI IN BELI BARVI."
-    ]
+    ],
+    "crest": "slovenia_olimpija_700x700.football-logos.cc.png",
+    "primaryColor": "#00813A",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "si",
+    "city": "Ljubljana"
   },
   {
     "name": "NK MARIBOR",
@@ -184,7 +264,12 @@
       "KLUB JE BIL USTANOVLJEN LETA 1960.",
       "VZDEVEK KLUBA JE 'VIJOLIČASTI'.",
       "DOMAČI STADION SE IMENUJE LJUDSKI VRT."
-    ]
+    ],
+    "crest": "slovenia_maribor_700x700.football-logos.cc.png",
+    "primaryColor": "#6A0DAD",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "si",
+    "city": "Maribor"
   },
   {
     "name": "PANATHINAIKOS",
@@ -195,7 +280,12 @@
       "KLUB JE IZ ATEN.",
       "DETElJICA JE POSTALA NJEGOV GLAVNI SIMBOL.",
       "PANATHINAIKOS JE ZNAN TUDI PO VZDEVKU 'TRIFYLLI' – DETELJICE."
-    ]
+    ],
+    "crest": "greece_panathinaikos_700x700.football-logos.cc.png",
+    "primaryColor": "#006633",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "gr",
+    "city": "Atene"
   },
   {
     "name": "OLYMPIACOS",
@@ -206,7 +296,12 @@
       "OLYMPIACOS PRIHAJA IZ PIREJA, PRISTANIŠKEGA MESTA OB ATENAH.",
       "LOVOROV VENEC JE SIMBOL ZMAGE.",
       "NAJVEČJI GRŠKI RIVAL JE PANATHINAIKOS."
-    ]
+    ],
+    "crest": "greece_olympiacos_700x700.football-logos.cc.png",
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "gr",
+    "city": "Pirej"
   },
   {
     "name": "PAOK",
@@ -217,7 +312,12 @@
       "PAOK JE IZ SOLUNA.",
       "DVOGLOVI OREL JE POVEZAN Z BIZANTINSKO TRADICIJO.",
       "KLUB SO USTANOVILI GRŠKI PRISELJENCI IZ KONSTANTINOPLA."
-    ]
+    ],
+    "crest": "greece_paok_700x700.football-logos.cc.png",
+    "primaryColor": "#000000",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "gr",
+    "city": "Solun"
   },
   {
     "name": "AJ AUXERRE",
@@ -228,7 +328,12 @@
       "KLUB JE ZNAN PO MLADINSKI ŠOLI, KI JE VZGOJILA ŠTEVILNE ZNANE NOGOMETAŠE.",
       "AUXERRE JE V 1990-IH OSVOJIL FRANCOSKI POKAL IN PRVENSTVO.",
       "KLUBSKE BARVE SO MODRA IN BELA."
-    ]
+    ],
+    "crest": null,
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "fr",
+    "city": "Auxerre"
   },
   {
     "name": "FC KÖLN",
@@ -239,7 +344,12 @@
       "PRVI HENNES JE BIL PODARJEN KLUBU LETA 1950.",
       "DANAŠNJI HENNES JE ŽE DEVETA GENERACIJA KLUBSKE MASKOTE.",
       "KOZEL JE NA GRBU POSTAVLJEN NAD STOLPOMA KÖLNSKE KATEDRALE."
-    ]
+    ],
+    "crest": "germany_koln_700x700.football-logos.cc.png",
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "de",
+    "city": "Köln"
   },
   {
     "name": "SLAVIA PRAHA",
@@ -250,7 +360,12 @@
       "SLAVIA JE EDEN NAJSTAREJŠIH KLUBOV NA ČEŠKEM.",
       "RDEČA IN BELA STA KLUBSKI BARVI.",
       "KLUB PRIHAJA IZ PRAGE."
-    ]
+    ],
+    "crest": "czech-republic_slavia-praha_700x700.football-logos.cc.png",
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "cz",
+    "city": "Praga"
   },
   {
     "name": "LEGIA WARSAW",
@@ -261,7 +376,12 @@
       "LEGIA JE BILA PRVOTNO POVEZANA S POLJSKO VOJSKO.",
       "KLUB JE IZ VARŠAVE.",
       "ZELENA, BELA IN ČRNA SO TRADICIONALNE KLUBSKE BARVE."
-    ]
+    ],
+    "crest": null,
+    "primaryColor": "#006633",
+    "secondaryColor": "#000000",
+    "flagCode": "pl",
+    "city": "Varšava"
   },
   {
     "name": "SHAMROCK ROVERS",
@@ -272,7 +392,12 @@
       "SHAMROCK JE ANGLEŠKO IME ZA IRSKO DETELJICO.",
       "KLUB PRIHAJA IZ DUBLINA.",
       "SHAMROCK ROVERS SO NAJUSPEŠNEJŠI KLUB V ZGODOVINI IRSKE LIGE."
-    ]
+    ],
+    "crest": null,
+    "primaryColor": "#006633",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "ie",
+    "city": "Dublin"
   },
   {
     "name": "WYDAD CASABLANCA",
@@ -283,7 +408,12 @@
       "KLUB JE IZ CASABLANCE.",
       "WYDAD JE EDEN NAJUSPEŠNEJŠIH KLUBOV V AFRIKI.",
       "RDEČA IN BELA STA TRADICIONALNI KLUBSKI BARVI."
-    ]
+    ],
+    "crest": null,
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "ma",
+    "city": "Casablanca"
   },
   {
     "name": "AL AHLY",
@@ -294,7 +424,12 @@
       "AL AHLY PRIHAJA IZ KAIRA.",
       "KLUB JE EDEN NAJUSPEŠNEJŠIH V ZGODOVINI AFRIŠKEGA NOGOMETA.",
       "VZDEVEK KLUBA JE 'THE CLUB OF THE CENTURY'."
-    ]
+    ],
+    "crest": "egypt_al-ahly_700x700.football-logos.cc.png",
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#FFDD00",
+    "flagCode": "eg",
+    "city": "Kairo"
   },
   {
     "name": "MAMELODI SUNDOWNS",
@@ -305,7 +440,12 @@
       "KLUB PRIHAJA IZ PRETORIE.",
       "NJIHOV VZDEVEK JE 'THE BRAZILIANS'.",
       "RUMENA IN MODRA STA TRADICIONALNI KLUBSKI BARVI."
-    ]
+    ],
+    "crest": "south-africa_mamelodi-sundowns_700x700.football-logos.cc.png",
+    "primaryColor": "#FFDD00",
+    "secondaryColor": "#003DA5",
+    "flagCode": "za",
+    "city": "Pretoria"
   },
   {
     "name": "URAWA RED DIAMONDS",
@@ -316,7 +456,12 @@
       "RED DIAMONDS POMENI RDEČE DIAMANTE.",
       "KLUB JE IZ SAITAME PRI TOKIU.",
       "EKIPA JE BILA PRVOTNO POVEZANA S PODJETJEM MITSUBISHI."
-    ]
+    ],
+    "crest": "japan_urawa-reds_700x700.football-logos.cc.png",
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "jp",
+    "city": "Saitama"
   },
   {
     "name": "AL HILAL",
@@ -327,7 +472,12 @@
       "AL HILAL V ARABŠČINI POMENI POLMESEC.",
       "KLUB JE IZ RIADA.",
       "AL HILAL JE EDEN NAJUSPEŠNEJŠIH AZIJSKIH KLUBOV."
-    ]
+    ],
+    "crest": "saudi-arabia_al-hilal_700x700.football-logos.cc.png",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "sa",
+    "city": "Riad"
   },
   {
     "name": "MANCHESTER CITY",
@@ -338,7 +488,12 @@
       "LADJA NA GRBU SPOMINJA NA MANCHESTERSKI LADIJSKI KANAL.",
       "TRI ZVEZDICE NA STAREM GRBU NISO POMENILE TREH NASLOVOV.",
       "SEDANJI GRB JE BIL PREDSTAVLJEN LETA 2016."
-    ]
+    ],
+    "crest": "england_manchester-city_700x700.football-logos.cc.png",
+    "primaryColor": "#6CABDD",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "gb-eng",
+    "city": "Manchester"
   },
   {
     "name": "CHELSEA FC",
@@ -349,7 +504,12 @@
       "LEV DRŽI PALICO, KI JE POVEZANA Z ZGODOVINSKIM GRBOM EARLA CADOGANA.",
       "CHELSEA JE ZNAN KOT 'THE BLUES'.",
       "GRB JE BIL VEČKRAT SPREMENJEN, TODA LEV JE OSTAL NJEGOV GLAVNI SIMBOL."
-    ]
+    ],
+    "crest": "england_chelsea_700x700.football-logos.cc.png",
+    "primaryColor": "#034694",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "gb-eng",
+    "city": "London"
   },
   {
     "name": "TOTTENHAM HOTSPUR",
@@ -360,7 +520,12 @@
       "HARRY HOTSPUR JE BIL ANGLEŠKI VITEZ IZ 14. STOLETJA.",
       "KLUBSKI VZDEVEK JE 'SPURS'.",
       "PETELIN NA GRBU STOJI NA NOGOMETNI ŽOGI."
-    ]
+    ],
+    "crest": null,
+    "primaryColor": "#132257",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "gb-eng",
+    "city": "London"
   },
   {
     "name": "WOLVERHAMPTON WANDERERS",
@@ -371,7 +536,12 @@
       "IME WOLVERHAMPTON VSEBUJE BESEDO WOLF – VOLK.",
       "GRB JE SESTAVLJEN IZ ŠESTIH STRANIC IN VOLČJE GLAVE.",
       "VOLK JE POSTAL KLUBSKI SIMBOL V 1960-IH."
-    ]
+    ],
+    "crest": "england_wolves_700x700.football-logos.cc.png",
+    "primaryColor": "#FDB913",
+    "secondaryColor": "#000000",
+    "flagCode": "gb-eng",
+    "city": "Wolverhampton"
   },
   {
     "name": "FC PORTO",
@@ -382,7 +552,12 @@
       "KLUBSKI VZDEVEK JE 'DRAGÕES' – ZMAJI.",
       "MODRA IN BELA STA TRADICIONALNI KLUBSKI BARVI.",
       "FC PORTO JE EDEN OD TREH VELIKIH PORTUGALSKIH KLUBOV."
-    ]
+    ],
+    "crest": "portugal_fc-porto_700x700.football-logos.cc.png",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "pt",
+    "city": "Porto"
   },
   {
     "name": "PSV EINDHOVEN",
@@ -393,7 +568,12 @@
       "PSV JE OKRAJŠAVA ZA PHILIPS SPORT VERENIGING.",
       "KLUB JE NASTAL KOT ŠPORTNO DRUŠTVO DELAVCEV PODJETJA PHILIPS.",
       "DOMAČE MESTO KLUBA JE EINDHOVEN."
-    ]
+    ],
+    "crest": "netherlands_psv_700x700.football-logos.cc.png",
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "nl",
+    "city": "Eindhoven"
   },
   {
     "name": "FEYENOORD",
@@ -404,7 +584,12 @@
       "FEYENOORD PRIHAJA IZ ROTTERDAMA.",
       "KLUB JE BIL PRVOTNO USTANOVLJEN POD DRUGIM IMENOM.",
       "FEYENOORD JE EDEN OD TREH NAJVEČJIH NIZOZEMSKIH KLUBOV."
-    ]
+    ],
+    "crest": "netherlands_feyenoord_700x700.football-logos.cc.png",
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "nl",
+    "city": "Rotterdam"
   },
   {
     "name": "BORUSSIA DORTMUND",
@@ -415,7 +600,12 @@
       "09 V GRBU POMENI LETO 1909.",
       "BVB JE KRATICA ZA CELOTNO NEMŠKO IME KLUBA.",
       "NAVIJAČI DORTMUNDA SO ZNANI PO OGROMNI TRIBUNI 'YELLOW WALL'."
-    ]
+    ],
+    "crest": "germany_borussia-dortmund_700x700.football-logos.cc.png",
+    "primaryColor": "#FDE100",
+    "secondaryColor": "#000000",
+    "flagCode": "de",
+    "city": "Dortmund"
   },
   {
     "name": "SCHALKE 04",
@@ -426,7 +616,12 @@
       "04 POMENI LETO USTANOVITVE KLUBA.",
       "KLUB PRIHAJA IZ MESTA GELSENKIRCHEN.",
       "SCHALKE JE ZNAN PO VELIKEM RIVALSTVU Z BORUSSIO DORTMUND."
-    ]
+    ],
+    "crest": "germany_schalke-04_700x700.football-logos.cc.png",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "de",
+    "city": "Gelsenkirchen"
   },
   {
     "name": "AC MILAN",
@@ -437,7 +632,12 @@
       "ROSSONERI POMENIJO 'RDEČE-ČRNI'.",
       "RDEČI KRIŽ JE SIMBOL MESTA MILAN.",
       "KLUB JE USTANOVIL ANGLEŽ HERBERT KILPIN."
-    ]
+    ],
+    "crest": "italy_milan_700x700.football-logos.cc.png",
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#000000",
+    "flagCode": "it",
+    "city": "Milan"
   },
   {
     "name": "INTER MILAN",
@@ -448,7 +648,12 @@
       "INTER JE BIL USTANOVLJEN PO RAZKOLU V MILANU.",
       "IME INTERNAZIONALE POMENI MEDNARODNI.",
       "KLUBSKI VZDEVEK 'NERAZZURRI' POMENI ČRNO-MODRI."
-    ]
+    ],
+    "crest": "italy_inter_700x700.football-logos.cc.png",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#000000",
+    "flagCode": "it",
+    "city": "Milan"
   },
   {
     "name": "SSC NAPOLI",
@@ -459,7 +664,12 @@
       "KLUB JE ZNAN KOT 'GLI AZZURRI' – MODRI.",
       "DIEGO MARADONA JE V NAPOLIJU POSTAL KLUBSKA LEGENDA.",
       "NOGOMET V NEAPLJU IMA ZELO MOČNO MESTNO IDENTITETO."
-    ]
+    ],
+    "crest": "italy_napoli_700x700.football-logos.cc.png",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "it",
+    "city": "Neapelj"
   },
   {
     "name": "AS MONACO",
@@ -470,7 +680,12 @@
       "MONAKO JE KNJEŽEVINA, NE REPUBLIKA.",
       "RDEČA IN BELA STA BARVI MONAKA.",
       "KLUB IGRA V FRANCOSKEM NOGOMETNEM SISTEMU, ČEPRAV PRIHAJA IZ MONAKA."
-    ]
+    ],
+    "crest": "france_as-monaco_700x700.football-logos.cc.png",
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "mc",
+    "city": "Monako"
   },
   {
     "name": "CELTIC FC",
@@ -481,7 +696,12 @@
       "CELTIC JE BIL USTANOVLJEN V GLASGOWU LETA 1887.",
       "KLUB JE BIL POVEZAN Z IRSKO PRISELJENSKO SKUPNOSTJO.",
       "DETElJICA JE POSTALA GLAVNI SIMBOL KLUBA."
-    ]
+    ],
+    "crest": "scotland_celtic_700x700.football-logos.cc.png",
+    "primaryColor": "#006633",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "gb-sct",
+    "city": "Glasgow"
   },
   {
     "name": "RANGERS FC",
@@ -492,7 +712,12 @@
       "RANGERS JE BIL USTANOVLJEN LETA 1872.",
       "KLUB PRIHAJA IZ GLASGOWA.",
       "RANGERS IN CELTIC IGRATA V ZNANEM GLASGOWSKEM DERBIJU."
-    ]
+    ],
+    "crest": "scotland_rangers_700x700.football-logos.cc.png",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "gb-sct",
+    "city": "Glasgow"
   },
   {
     "name": "GALATASARAY",
@@ -503,7 +728,12 @@
       "KLUB JE NASTAL NA SREDNJI ŠOLI GALATASARAY V ISTANBULU.",
       "RDEČA IN RUMENA STA KLUBSKI BARVI.",
       "GALATASARAY JE EDEN NAJUSPEŠNEJŠIH TURŠKIH KLUBOV."
-    ]
+    ],
+    "crest": "turkey_galatasaray_700x700.football-logos.cc.png",
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#FFDD00",
+    "flagCode": "tr",
+    "city": "Istanbul"
   },
   {
     "name": "FENERBAHÇE",
@@ -514,7 +744,12 @@
       "FENERBAHÇE JE IZ ISTANBULA.",
       "KLUB JE BIL USTANOVLJEN LETA 1907.",
       "NJEGOV VELIK RIVAL JE GALATASARAY."
-    ]
+    ],
+    "crest": "turkey_fenerbahce_700x700.football-logos.cc.png",
+    "primaryColor": "#FFDD00",
+    "secondaryColor": "#003DA5",
+    "flagCode": "tr",
+    "city": "Istanbul"
   },
   {
     "name": "AJAX",
@@ -525,7 +760,12 @@
       "AJAX JE JUNAK IZ GRŠKE MITOLOGIJE.",
       "DANAŠNJA PODOBA JE SESTAVLJENA IZ ENAJSTIH ČRT.",
       "ENAJST ČRT PREDSTAVLJA ENAJST IGRALCEV."
-    ]
+    ],
+    "crest": "netherlands_ajax_700x700.football-logos.cc.png",
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "nl",
+    "city": "Amsterdam"
   },
   {
     "name": "RIVER PLATE",
@@ -536,7 +776,12 @@
       "RIVER PLATE JE IZ BUENOS AIRESA.",
       "RDEČI DIAGONALNI TRAK JE NAJZNAČILNEJŠI SIMBOL KLUBA.",
       "NAJVEČJI RIVAL JE BOCA JUNIORS."
-    ]
+    ],
+    "crest": "argentina_river-plate_700x700.football-logos.cc.png",
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "ar",
+    "city": "Buenos Aires"
   },
   {
     "name": "PALMEIRAS",
@@ -547,7 +792,12 @@
       "PALMEIRAS JE IMEL PRVOTNO ITALIJANSKO IME PALESTRA ITALIA.",
       "KLUB JE IZ SÃO PAULA.",
       "ZELENA IN BELA STA TRADICIONALNI KLUBSKI BARVI."
-    ]
+    ],
+    "crest": "brazil_palmeiras_700x700.football-logos.cc.png",
+    "primaryColor": "#006633",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "br",
+    "city": "São Paulo"
   },
   {
     "name": "CLUB AMÉRICA",
@@ -558,7 +808,12 @@
       "KLUB JE IZ MEXICO CITYJA.",
       "VZDEVEK KLUBA JE 'LAS ÁGUILAS' – ORLI.",
       "CLUB AMÉRICA JE EDEN NAJUSPEŠNEJŠIH KLUBOV V MEHIŠKEM NOGOMETU."
-    ]
+    ],
+    "crest": null,
+    "primaryColor": "#FFDD00",
+    "secondaryColor": "#003DA5",
+    "flagCode": "mx",
+    "city": "Mexico City"
   },
   {
     "name": "FC BARCELONA",
@@ -569,7 +824,12 @@
       "KLUB JE LETA 1899 USTANOVIL ŠVICAR JOAN GAMPER.",
       "MOTO KLUBA JE »MÉS QUE UN CLUB« – »VEČ KOT KLUB«.",
       "GRB JE V SEDANJI OSNOVNI OBLIKI ZNAN OD LETA 1910."
-    ]
+    ],
+    "crest": "spain_barcelona_700x700.football-logos.cc.png",
+    "primaryColor": "#A50044",
+    "secondaryColor": "#004D98",
+    "flagCode": "es",
+    "city": "Barcelona"
   },
   {
     "name": "REAL MADRID",
@@ -580,7 +840,12 @@
       "REAL MADRID JE PRED LETOM 1920 NOSIL IME MADRID FOOTBALL CLUB.",
       "KRALJ ALFONSO XIII. JE KLUBU PODELIL NASLOV »REAL«.",
       "VIJOLIČNA ČRTA ČEZ GRB JE POVEZANA Z MADRIDSKO REGIJO."
-    ]
+    ],
+    "crest": "spain_real-madrid_700x700.football-logos.cc.png",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "es",
+    "city": "Madrid"
   },
   {
     "name": "LIVERPOOL FC",
@@ -591,7 +856,12 @@
       "LIVER BIRD JE TUDI NA VRHU ROYAL LIVER BUILDINGA V LIVERPOOLU.",
       "NA GRBU STA DVE PLAMENICI V SPOMIN NA ŽRTVE NESREČE NA HILLSBOROUGHU.",
       "KLUBSKA HIMNA JE »YOU'LL NEVER WALK ALONE«."
-    ]
+    ],
+    "crest": "england_liverpool_700x700.football-logos.cc.png",
+    "primaryColor": "#C8102E",
+    "secondaryColor": "#F6EB61",
+    "flagCode": "gb-eng",
+    "city": "Liverpool"
   },
   {
     "name": "MANCHESTER UNITED",
@@ -602,7 +872,12 @@
       "KLUB JE BIL PRVOTNO USTANOVLJEN KOT NEWTON HEATH LYR FOOTBALL CLUB.",
       "VZDEVEK »RED DEVILS« JE POVEZAN Z RDEČO BARVO KLUBA.",
       "LADJA NA GRBU JE SIMBOL MESTA MANCHESTER."
-    ]
+    ],
+    "crest": "england_manchester-united_700x700.football-logos.cc.png",
+    "primaryColor": "#DA291C",
+    "secondaryColor": "#FFE987",
+    "flagCode": "gb-eng",
+    "city": "Manchester"
   },
   {
     "name": "BAYERN MÜNCHEN",
@@ -613,7 +888,12 @@
       "BAYERN POMENI BAVARSKO, DEŽELO NA JUGU NEMČIJE.",
       "MODRO-BELI ROMBI SO BAVARSKI SIMBOL ŽE STOLETJA.",
       "KLUB JE BIL USTANOVLJEN LETA 1900 V MÜNCHNU."
-    ]
+    ],
+    "crest": "germany_bayern-munchen_700x700.football-logos.cc.png",
+    "primaryColor": "#DC052D",
+    "secondaryColor": "#0066B2",
+    "flagCode": "de",
+    "city": "München"
   },
   {
     "name": "JUVENTUS",
@@ -624,7 +904,12 @@
       "IME JUVENTUS V LATINŠČINI POMENI »MLADOST«.",
       "BIVŠI GRB JE VSEBOVAL BIKA IZ MESTNEGA GRBA TORINA.",
       "ČRNO-BELE PROGE SO ZNAČILNE ZA JUVENTUSOVE DRESE."
-    ]
+    ],
+    "crest": "italy_juventus_700x700.football-logos.cc.png",
+    "primaryColor": "#000000",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "it",
+    "city": "Torino"
   },
   {
     "name": "FLAMENGO",
@@ -635,7 +920,12 @@
       "NOGOMETNA SEKCIJA JE BILA USTANOVLJENA ŠELE LETA 1911.",
       "CRF JE KRATICA ZA CELOTNO PORTUGALSKO IME KLUBA.",
       "FLAMENGO JE DOMA V RIO DE JANEIRU."
-    ]
+    ],
+    "crest": "brazil_flamengo_700x700.football-logos.cc.png",
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#000000",
+    "flagCode": "br",
+    "city": "Rio de Janeiro"
   },
   {
     "name": "BOCA JUNIORS",
@@ -646,7 +936,12 @@
       "KLUB JE NASTAL V ČETRTI LA BOCA V BUENOS AIRESU.",
       "BOCA JUNIORS JE ZNANA PO VELIKEM RIVALSTVU Z RIVER PLATE.",
       "NA GRBU SO ZVEZDICE, KI SO POVEZANE S KLUBSKIMI NASLOVI."
-    ]
+    ],
+    "crest": "argentina_boca-juniors_700x700.football-logos.cc.png",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#FFDD00",
+    "flagCode": "ar",
+    "city": "Buenos Aires"
   },
   {
     "name": "LA GALAXY",
@@ -657,17 +952,11 @@
       "LA POMENI LOS ANGELES.",
       "KLUB JE EDEN OD USTANOVNIH KLUBOV LIGE MLS.",
       "DAVID BECKHAM JE ZA LA GALAXY IGRAL OD LETA 2007."
-    ]
-  },
-  {
-    "name": "AS ROMA",
-    "country": "ITALIJA",
-    "founded_year": 1927,
-    "info_sl": "GRB AS ROME PRIKAZUJE VOLKULJO, KI HRANI ROMULA IN REMA, DVOJČKA IZ LEGENDE O USTANOVITVI RIMA. VOLKULJA JE STAR SIMBOL MESTA IN PREDSTAVLJA MOČ TER POGUM KLUBA. RDEČA IN RUMENA BARVA STA POVEZANI Z MESTOM RIM IN STA POSTALI ZNAČILNI ZA ROMINE DRESE.",
-    "trivia_sl": [
-      "AS ROMA JE BILA USTANOVLJENA LETA 1927.",
-      "VOLKULJA IZHAJA IZ LEGENDE O ROMULU IN REMU.",
-      "KLUB PRIHAJA IZ RIMA, ITALIJANSKE PRESTOLNICE."
-    ]
+    ],
+    "crest": null,
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#FFDD00",
+    "flagCode": "us",
+    "city": "Los Angeles"
   }
 ]
