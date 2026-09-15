@@ -1,8 +1,8 @@
 import { useState } from "react";
 import clubsData from "./clubs.json";
 import background from "./slike/background.webp";
-import mascot from "./slike/mascot.webp";
-import romaCrest from "./grbi/as-roma.webp";
+import mascot from "./slike/mascot.png";
+import romaCrest from "./grbi/italy_roma_700x700.football-logos.cc.png";
 
 const FONT_DISPLAY = "'Baloo 2', system-ui, sans-serif";
 const FONT_BODY = "'Nunito', system-ui, sans-serif";
