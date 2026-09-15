@@ -86,8 +86,7 @@ function GameButton({ children, onClick, color = "#2F86D6" }) {
         padding: "8px 16px",
         cursor: "pointer",
         boxShadow: pressed ? "0 1px 0 rgba(16,36,62,0.7)" : "0 4px 0 rgba(16,36,62,0.7)",
-        transform: pressed ? "translateY(3px)" : "translateY(0)",
-        transition: "transform 100ms ease, box-shadow 100ms ease",
+        transition: "box-shadow 100ms ease",
         display: "inline-flex",
         alignItems: "center",
         gap: "8px",
@@ -192,8 +191,8 @@ export default function App() {
                 onClick={() => crestImg && setShowCrestZoom(true)}
                 aria-label="Poglej grb v velikem prikazu"
                 style={{
-                  width: "150px",
-                  height: "150px",
+                  width: "180px",
+                  height: "180px",
                   borderRadius: "50%",
                   background: "#FFFFFF",
                   border: "3px solid #10243E",
@@ -201,7 +200,7 @@ export default function App() {
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  padding: "10px",
+                  padding: "16px",
                   cursor: crestImg ? "pointer" : "default",
                   transition: "transform 120ms ease",
                 }}
@@ -328,7 +327,7 @@ export default function App() {
         </div>
 
         {/* Bottom nav */}
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "26px", gap: "12px", flexWrap: "wrap" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "stretch", marginTop: "26px", gap: "12px" }}>
           <GameButton color="#2F86D6" onClick={goPrev}>← Prejšnji grb</GameButton>
           <GameButton color="#2FAE60" onClick={goNext}>Naslednji klub →</GameButton>
         </div>
