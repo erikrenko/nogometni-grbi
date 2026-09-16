@@ -760,7 +760,7 @@ function EuropeMapPage({ onGoClub, onGoWorldMap }) {
           const pin = EUROPE_PINS[club.name];
           if (!pin) return null;
           const isActive = activePin === club.name;
-          const crestImg = club.crest ?  : null;
+          const crestImg = club.crest ? `/grbi/${club.crest}` : null;
           return (
             <div key={club.name} style={{ position: "absolute", left: `${pin.x}%`, top: `${pin.y}%`, transform: "translate(-50%, -100%)", zIndex: isActive ? 10 : 3 }}>
               {isActive && (
@@ -768,13 +768,13 @@ function EuropeMapPage({ onGoClub, onGoWorldMap }) {
                   {crestImg && <img src={crestImg} alt="" style={{ width: "32px", height: "32px", objectFit: "contain", flexShrink: 0 }} />}
                   <div>
                     <div className="ng-app" style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: "12px", color: INK }}>{club.name}</div>
-                    <div className="ng-app" style={{ fontFamily: FONT_BODY, fontWeight: 700, fontSize: "11px", color:  }}>{club.city} · {club.founded_year}</div>
+                    <div className="ng-app" style={{ fontFamily: FONT_BODY, fontWeight: 700, fontSize: "11px", color: `${INK}88` }}>{club.city} · {club.founded_year}</div>
                     <div className="ng-app" style={{ fontFamily: FONT_DISPLAY, fontWeight: 700, fontSize: "11px", color: "#2FAE60", marginTop: "3px" }}>Odkrij →</div>
                   </div>
                   <div style={{ position: "absolute", top: "100%", left: "50%", transform: "translateX(-50%)", borderLeft: "6px solid transparent", borderRight: "6px solid transparent", borderTop: "6px solid #10243E" }} />
                 </div>
               )}
-              <button onClick={() => setActivePin(isActive ? null : club.name)} style={{ width: "22px", height: "22px", borderRadius: "50%", background: isActive ? "#FFD23F" : (club.primaryColor || "#2F86D6"), border: , boxShadow: "0 2px 4px rgba(0,0,0,0.35)", cursor: "pointer", padding: 0, display: "flex", alignItems: "center", justifyContent: "center", transform: isActive ? "scale(1.3)" : "scale(1)", transition: "transform 100ms ease" }}>
+              <button onClick={() => setActivePin(isActive ? null : club.name)} style={{ width: "22px", height: "22px", borderRadius: "50%", background: isActive ? "#FFD23F" : (club.primaryColor || "#2F86D6"), border: `2px solid ${isActive ? "#10243E" : "#FFFFFF"}`, boxShadow: "0 2px 4px rgba(0,0,0,0.35)", cursor: "pointer", padding: 0, display: "flex", alignItems: "center", justifyContent: "center", transform: isActive ? "scale(1.3)" : "scale(1)", transition: "transform 100ms ease" }}>
                 {crestImg && <img src={crestImg} alt="" style={{ width: "14px", height: "14px", objectFit: "contain" }} />}
               </button>
             </div>
