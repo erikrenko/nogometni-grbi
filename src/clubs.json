@@ -958,5 +958,1093 @@
     "secondaryColor": "#FFDD00",
     "flagCode": "us",
     "city": "Los Angeles"
+  },
+  {
+    "name": "ROSARIO CENTRAL",
+    "country": "ARGENTINA",
+    "founded_year": 1889,
+    "info_sl": "GRB ROSARIA CENTRALA TEMELJI NA MODRI IN RUMENI, BARVAH KLUBA IZ MESTA ROSARIO. ČRKE CARC SO ZAČETNICE CELENGA IMENA KLUBA. ZNAK TAKO OHRANJA POVEZAVO MED IMENOM, BARVAMI IN MESTOM.",
+    "trivia_sl": [
+      "KLUB JE BIL USTANOVLJEN LETA 1889.",
+      "NAJVEČJI RIVAL JE NEWELL'S OLD BOYS.",
+      "VZDEVEK KLUBA JE CANALLAS."
+    ],
+    "crest": "argentina_rosario-central_700x700.football-logos.cc.png",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#F7C600",
+    "flagCode": "",
+    "city": "Rosario"
+  },
+  {
+    "name": "RAPID WIEN",
+    "country": "AVSTRIJA",
+    "founded_year": 1899,
+    "info_sl": "ZELENO-BELI ŠČIT RAPIDA PONAVLJA BARVI, PO KATERIH JE KLUB NAJBOLJ PREPOZNAVEN. ZVEZDE NAD GRBOM OZNAČUJEJO VELIKO ŠTEVILO DRŽAVNIH NASLOVOV. ZNAK KLUBU DAJE JASNO DUNAJSKO IN ŠPORTNO IDENTITETO.",
+    "trivia_sl": [
+      "RAPID JE IZ DUNAJA.",
+      "KLUB JE BIL USTANOVLJEN KOT ERSTER WIENER ARBEITER-FUSSBALL-CLUB.",
+      "RAPID IGRA NA STADIONU ALLIANZ STADION."
+    ],
+    "crest": "austria_rapid-vienna_700x700.football-logos.cc.png",
+    "primaryColor": "#009A44",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Dunaj"
+  },
+  {
+    "name": "RSC ANDERLECHT",
+    "country": "BELGIJA",
+    "founded_year": 1908,
+    "info_sl": "VIJOLIČNO-BELI GRB ANDERLECHTA NOSI KRONO IN LOVORJEV VENEC, KI STA KLASIČNA ZNAKA ČASTI IN ZMAGE. V SREDINI SO ZAČETNICE IMENA KLUBA. TRI ZVEZDE NAD NJIM SO POVEZANE Z NJEGOVIMI DRŽAVNIMI NASLOVI.",
+    "trivia_sl": [
+      "MOTO KLUBA JE NOBLESSE OBLIGE.",
+      "KLUB JE IZ BRUSELJSKE OBČINE ANDERLECHT.",
+      "ANDERLECHT JE EDEN NAJUSPEŠNEJŠIH BELGIJSKIH KLUBOV."
+    ],
+    "crest": "belgium_anderlecht_700x700.football-logos.cc.png",
+    "primaryColor": "#5B2C83",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Anderlecht"
+  },
+  {
+    "name": "CLUB BRUGGE",
+    "country": "BELGIJA",
+    "founded_year": 1891,
+    "info_sl": "MODRO-ČRNI KROG CLUBA BRUGGE UPORABLJA KLUBSKE BARVE IN ZAČETNICE CB. KRONA NAD GRBOM POUDAREK DAJE TRADICIJI IN USPEHOM KLUBA. ZVEZDA OZNAČUJE DESET OSVOJENIH DRŽAVNIH PRVENSTEV.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA BRUGGE.",
+      "VZDEVEK KLUBA JE BLAUW-ZWART.",
+      "DOMAČE TEKME IGRA NA JAN BREYDEL STADIONU."
+    ],
+    "crest": "belgium_club-brugge_700x700.football-logos.cc.png",
+    "primaryColor": "#0054A6",
+    "secondaryColor": "#000000",
+    "flagCode": "",
+    "city": "Brugge"
+  },
+  {
+    "name": "KAA GENT",
+    "country": "BELGIJA",
+    "founded_year": 1900,
+    "info_sl": "GRB GENTA PRIKAZUJE GLAVO INDJANCA, KI JE POVEZANA Z VZDEVKOM KLUBA DE BUFFALO'S. VZDEVEK IZHAJA IZ OBIŠČEVA AMERIŠKE CIRKUŠKE PREDSTAVE BUFFALO BILLA V GENTU. MODRA IN BELA PA STA KLUBSKI BARVI.",
+    "trivia_sl": [
+      "KLUB PRIHAJA IZ GENTA.",
+      "KAA POMENI KONINKLIJKE ATLETIEK ASSOCIATIE.",
+      "GENT JE BIL USTANOVLJEN LETA 1900."
+    ],
+    "crest": "belgium_gent_700x700.football-logos.cc.png",
+    "primaryColor": "#005BAC",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Gent"
+  },
+  {
+    "name": "CORINTHIANS",
+    "country": "BRAZILIJA",
+    "founded_year": 1910,
+    "info_sl": "GRB CORINTHIANSA ZDRUŽUJE NOGOMETNI ŠČIT Z VESLI IN SIDROM, KER JE KLUB DEJAVEN TUDI V VODNIH ŠPORTIH. PREPLETENE ČRKE SO ZAČETNICE IMENA SPORT CLUB CORINTHIANS PAULISTA. ČRNO-BELA BARVNA KOMBINACIJA JE POSTALA KLUBSKI ZNAK.",
+    "trivia_sl": [
+      "KLUB JE USTANOVILO PET DELAVCEV.",
+      "IME JE NAVDIHNIL ANGLEŠKI CORINTHIAN FC.",
+      "PRVI GRB JE KLUB DOBIL LETA 1913."
+    ],
+    "crest": "brazil_corinthians_700x700.football-logos.cc.png",
+    "primaryColor": "#000000",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "São Paulo"
+  },
+  {
+    "name": "FLUMINENSE",
+    "country": "BRAZILIJA",
+    "founded_year": 1902,
+    "info_sl": "PREPLETENE ČRKE FFC NA GRBU POMENIJO FLUMINENSE FOOTBALL CLUB. BORDO, ZELENA IN BELA SO BARVE, KI SO KLUBU PRINESLE VZDEVEK TRICOLOR. ZNAK JE ZATO POVEZAN PREDVSEM Z IMENOM IN DOLGO BARVNO TRADICIJO KLUBA.",
+    "trivia_sl": [
+      "PRVOTNI BARVI STA BILI SIVA IN BELA.",
+      "SEDANJE TRI BARVE SO KLUB SPREJEL LETA 1904.",
+      "FLUMINENSE JE IZ RIA DE JANEIRA."
+    ],
+    "crest": "brazil_fluminense_700x700.football-logos.cc.png",
+    "primaryColor": "#7B1E3A",
+    "secondaryColor": "#006B3C",
+    "flagCode": "",
+    "city": "Rio de Janeiro"
+  },
+  {
+    "name": "SANTOS FC",
+    "country": "BRAZILIJA",
+    "founded_year": 1912,
+    "info_sl": "ČRKE SFC NA BELEM ŠČITU POMENIJO SANTOS FUTEBOL CLUBE. ČRNO-BELA BARVA POVEZUJETA GRB S TRADICIONALNIMI DRESI KLUBA. ZVEZDE NAD ŠČITOM SO BILE DODANE V SPOMIN NA DVA MEDCELINSKA NASLOVA IZ LET 1962 IN 1963.",
+    "trivia_sl": [
+      "SEDANJI ZNAK IZVIRA IZ LETA 1925.",
+      "SANTOS JE DOMA V PRISTANIŠKEM MESTU SANTOS.",
+      "PELÉ JE ZA SANTOS ODIGRAL VEČINO KLUBSKE KARIERE."
+    ],
+    "crest": "brazil_santos_700x700.football-logos.cc.png",
+    "primaryColor": "#000000",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Santos"
+  },
+  {
+    "name": "VASCO DA GAMA",
+    "country": "BRAZILIJA",
+    "founded_year": 1898,
+    "info_sl": "KRIŽ NA GRBU VASCA DA GAME JE KRIŽ REDA KRISTUSA IN SPOMINJA NA PORTUGALSKE POMORŠČAKE. IME KLUBA ČASTI RAZISKOVALCA VASCA DA GAMO. LADJA IN KRIŽ ZATO POVEZUJETA KLUB S POMORSKO ZGODOVINO.",
+    "trivia_sl": [
+      "KLUB JE NASTAL KOT VESLAŠKO DRUŠTVO.",
+      "DOMA JE V RIU DE JANEIRU.",
+      "RDEČI KRIŽ JE DEL KLUBSKE IDENTITETE."
+    ],
+    "crest": "brazil_vasco-da-gama_700x700.football-logos.cc.png",
+    "primaryColor": "#000000",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Rio de Janeiro"
+  },
+  {
+    "name": "LUDOGORETS RAZGRAD",
+    "country": "BOLGARIJA",
+    "founded_year": 1945,
+    "info_sl": "GRB LUDOGORCA UPORABLJA ZELENO BARVO IN ORLA, KI PREDSTAVLJA MOČ IN POLET. IME LUDOGORETS SE NANAŠA NA ZGODOVINSKO POKRAJINO V SEVEROVZHODNI BOLGARIJI. ZNAK TAKO POVEZUJE KLUB Z REGIJO IN NJEGOVIM VZDEVKOM ORLI.",
+    "trivia_sl": [
+      "KLUB JE IZ RAZGRADA.",
+      "VZDEVEK EKipe JE ORLITE – ORLI.",
+      "KLUB JE LETA 2012 PRVIČ OSVOJIL BOLGARSKO LIGO."
+    ],
+    "crest": "bulgaria_ludogorets_700x700.football-logos.cc.png",
+    "primaryColor": "#009B3A",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Razgrad"
+  },
+  {
+    "name": "COLO-COLO",
+    "country": "ČILE",
+    "founded_year": 1925,
+    "info_sl": "GRB COLO-COLO PRIKAZUJE GLAVO MAPUČKEGA VODITELJA COLO-COLOJA. Z NJIM KLUB ČASTI DOMORODNO LJUDSTVO MAPUČE IN ZGODOVINO ČILA. ČRNO-BELA BARVA STA TRADICIONALNI BARVI EKIPE.",
+    "trivia_sl": [
+      "KLUB JE IZ SANTIAGA.",
+      "COLO-COLO JE BIL MAPUČKI VOJAŠKI VODITELJ.",
+      "KLUB JE USTANOVIL DAVID ARELLANO."
+    ],
+    "crest": "chile_colo-colo_700x700.football-logos.cc.png",
+    "primaryColor": "#000000",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Santiago"
+  },
+  {
+    "name": "AMÉRICA DE CALI",
+    "country": "KOLUMBIJA",
+    "founded_year": 1927,
+    "info_sl": "RDEČI GRB AMÉRICE DE CALI NOSI IME KLUBA IN POGOSTO UPODOBITEV HUDIČA. HUDIČ JE POVEZAN Z VZDEVKOM LOS DIABLOS ROJOS, RDEČI HUDIČI. ZNAK JE TAKO ZGODBA O KLUBSKI BARVI IN VZDEVKU, NE O VERSKEM SIMBOLU.",
+    "trivia_sl": [
+      "KLUB JE IZ CALIJA.",
+      "OD LETA 2017 KLUBSKI GRB PRAVILOMA NIMA ZVEZD.",
+      "RDEČA JE GLAVNA KLUBSKA BARVA."
+    ],
+    "crest": "colombia_america-de-cali_700x700.football-logos.cc.png",
+    "primaryColor": "#D71920",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Cali"
+  },
+  {
+    "name": "BOHEMIANS PRAHA 1905",
+    "country": "ČEŠKA",
+    "founded_year": 1905,
+    "info_sl": "GRB BOHEMIANSA PRIKAZUJE KENGURUJA, NENAVADEN SIMBOL ZA PRAŠKI KLUB. KENGURUJA SO KLUBU PODARILI PO TURNEJI V AVSTRALIJI LETA 1927, NATO PA JE POSTAL MASKOTA. ZELENA IN BELA STA KLUBSKI BARVI.",
+    "trivia_sl": [
+      "KLUB JE IZ PRAGE.",
+      "KENGURUJI SO BILI PO TURNEJI PODARJENI PRAŠKEMU ŽIVALSKEMU VRTU.",
+      "BOHEMIANS JE BIL USTANOVLJEN LETA 1905."
+    ],
+    "crest": "czech-republic_bohemians-praha_700x700.football-logos.cc.png",
+    "primaryColor": "#00843D",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Praga"
+  },
+  {
+    "name": "SPARTA PRAHA",
+    "country": "ČEŠKA",
+    "founded_year": 1893,
+    "info_sl": "GRB SPARTE NOSI VELIKO ČRKO S IN TRI ZVEZDE. ZVEZDE OZNAČUJEJO DESETICE OSVOJENIH DRŽAVNIH NASLOVOV. BORDO, RUMENA IN MODRA SO TRADICIONALNE BARVE KLUBA.",
+    "trivia_sl": [
+      "KLUB JE IZ PRAGE.",
+      "IME SPARTA SE NAVEZUJE NA ANTIČNO ŠPARTO.",
+      "SPARTA JE EDEN NAJSTAREJŠIH ČEŠKIH KLUBOV."
+    ],
+    "crest": "czech-republic_sparta-praha_700x700.football-logos.cc.png",
+    "primaryColor": "#7A1E1E",
+    "secondaryColor": "#F2C400",
+    "flagCode": "",
+    "city": "Praga"
+  },
+  {
+    "name": "BRØNDBY IF",
+    "country": "DANSKA",
+    "founded_year": 1964,
+    "info_sl": "MODRO-RUMENI GRB BRØNDBYJA NOSI ZAČETNICE BIF IN LETNICO USTANOVITVE. BARVI STA POSTALI PREPOZNAVNI ZNAK KLUBA IZ PREDMESTJA KØBENHAVNA. PREPROSTA OBLIKA POUDAREK DAJE IMENU IN BARVAM.",
+    "trivia_sl": [
+      "KLUB JE BIL USTANOVLJEN LETA 1964.",
+      "BRØNDBY JE IZ OBČINE BRØNDBY.",
+      "Leta 2026 se je klub vrnil k izvirnemu logotipu BIF."
+    ],
+    "crest": "denmark_brondby_700x700.football-logos.cc.png",
+    "primaryColor": "#F7D117",
+    "secondaryColor": "#003DA5",
+    "flagCode": "",
+    "city": "Brøndby"
+  },
+  {
+    "name": "FC COPENHAGEN",
+    "country": "DANSKA",
+    "founded_year": 1992,
+    "info_sl": "LEV NA GRBU FC KØBENHAVN IZHaja IZ MESTNEGA GRBA KØBENHAVNA. MODRA IN BELA BARVA POVEZUJETA NOVI KLUB Z NJEGOVIM MESTOM. ZNAK JE NASTAL OB ZDRUŽITVI B 1903 IN KB LETA 1992.",
+    "trivia_sl": [
+      "FC KØBENHAVN JE BIL USTANOVLJEN LETA 1992.",
+      "KLUB IGRA V PARKENU.",
+      "VZDEVEK KLUBA JE BYENS HOLD."
+    ],
+    "crest": "denmark_copenhagen_700x700.football-logos.cc.png",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "København"
+  },
+  {
+    "name": "FC MIDTJYLLAND",
+    "country": "DANSKA",
+    "founded_year": 1999,
+    "info_sl": "VOLK NA GRBU MIDTJYLLANDA PREDSTAVLJA DRUŽINSKO POVEZANOST, VZTRAJNOST IN SKUPINSKO DELO. IME POMENI SREDNJA JUTLANDIJA, REGIJA KLUBA. RDEČA IN ČRNA STA NJEGOVI KLUBSKI BARVI.",
+    "trivia_sl": [
+      "KLUB JE NASTAL Z ZDRUŽITVIJO IKAST FS IN HERING FREMDAD.",
+      "MIDTJYLLAND JE BIL USTANOVLJEN LETA 1999.",
+      "KLUB IMA ZNANO MLADINSKO AKADEMIJO."
+    ],
+    "crest": "denmark_midtjylland_700x700.football-logos.cc.png",
+    "primaryColor": "#000000",
+    "secondaryColor": "#D71920",
+    "flagCode": "",
+    "city": "Herning"
+  },
+  {
+    "name": "ZAMALEK SC",
+    "country": "EGIPT",
+    "founded_year": 1911,
+    "info_sl": "LOKOSTRELEC NA GRBU PREDSTAVLJA ŠPORTNIKA, KI CILJA VISOKO. BELA IN RDEČA STA ZGODOVINSKI BARVI KLUBA. ZNAK POUDAREK DAJE TEKMOVALNOSTI IN MESTNI IDENTITETI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Kairo.",
+      "LETNICA USTANOVITVE JE 1911.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "egypt_zamalek_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Kairo"
+  },
+  {
+    "name": "ARSENAL",
+    "country": "ANGLIJA",
+    "founded_year": 1886,
+    "info_sl": "TOP NA GRBU SPOMINJA NA ROYAL ARSENAL, TOVARNO OROŽJA, KJER JE KLUB NASTAL. ZATO JE TOP ZGODOVINSKI SIMBOL IN NE LE OKRAS. RDEČA IN BELA STA POSTALI KLUBSKI BARVI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA London.",
+      "LETNICA USTANOVITVE JE 1886.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "england_arsenal_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "London"
+  },
+  {
+    "name": "ASTON VILLA",
+    "country": "ANGLIJA",
+    "founded_year": 1874,
+    "info_sl": "LEV NA GRBU ASTON VILLE JE ZNAK MOČI IN POGUMA. ČRKE AVFC SO ZAČETNICE IMENA KLUBA. BORDO IN MODRA STA NJEGOVI TRADICIONALNI BARVI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Birmingham.",
+      "LETNICA USTANOVITVE JE 1874.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "england_aston-villa_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Birmingham"
+  },
+  {
+    "name": "AFC BOURNEMOUTH",
+    "country": "ANGLIJA",
+    "founded_year": 1899,
+    "info_sl": "GRB BOURNEMOUTHA PRIKAZUJE NOGOMETAŠA, KI ODBIJA ŽOGO Z GLAVO. SILHUETA PREDSTAVLJA DOLGOLETNEGA KLUBSKEGA REKORDERJA DICKEYJA DOWSETTA. RDEČA IN ČRNA STA BARVI KLUBA.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Bournemouth.",
+      "LETNICA USTANOVITVE JE 1899.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "england_bournemouth_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Bournemouth"
+  },
+  {
+    "name": "BRENTFORD FC",
+    "country": "ANGLIJA",
+    "founded_year": 1889,
+    "info_sl": "ČEBELA NA GRBU BRENTFORDA SE NAVEZUJE NA VZDEVEK THE BEES. VZDEVEK JE NASTAL ZARADI NAPAČNO SLIŠANEGA NAVIJANJA ZA ŠOLSKEGA IGRALCA. RDEČA, BELA IN ČRNA SO KLUBSKE BARVE.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA London.",
+      "LETNICA USTANOVITVE JE 1889.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "england_brentford_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "London"
+  },
+  {
+    "name": "BRIGHTON & HOVE ALBION",
+    "country": "ANGLIJA",
+    "founded_year": 1901,
+    "info_sl": "GALeb NA GRBU POVEZUJE KLUB Z OBMORSKIM MESTOM BRIGHTON. PTICA JE TUDI KLUBSKA MASKOTA IN VIR VZDEVKA SEAGULLS. MODRA IN BELA STA TRADICIONALNI BARVI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Brighton.",
+      "LETNICA USTANOVITVE JE 1901.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "england_brighton_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Brighton"
+  },
+  {
+    "name": "BRISTOL CITY",
+    "country": "ANGLIJA",
+    "founded_year": 1894,
+    "info_sl": "ROBIN NA GRBU JE POVEZAN Z VZDEVKOM KLUBA THE ROBINS. RDEČA PTICA IN RDEČA BARVA STA TAKOJ PREPOZNAVNI. MOST V STAREJŠIH RAZLIČICAH SPOMINJA NA MESTO BRISTOL.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Bristol.",
+      "LETNICA USTANOVITVE JE 1894.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "england_bristol-city_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Bristol"
+  },
+  {
+    "name": "EVERTON",
+    "country": "ANGLIJA",
+    "founded_year": 1878,
+    "info_sl": "STOLP PRINCE RUPERT'S TOWER JE RESNIČNA ZNAMENITOST V EVERTONU. KLUB GA JE IZBRAL KOT SIMBOL SVOJE ČETRTI. LOVORJEVA VENCA IN MOTO POUDAREK DAJETA ZMAGI IN SKUPNOSTI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Liverpool.",
+      "LETNICA USTANOVITVE JE 1878.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "england_everton_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Liverpool"
+  },
+  {
+    "name": "IPSWICH TOWN",
+    "country": "ANGLIJA",
+    "founded_year": 1878,
+    "info_sl": "MOČNI KONJ SUFFOLK PUNCH POVEZUJE GRB Z LOKALNO PASMO IN PODEŽELSKO ZGODOVINO. MESTNA VRATA IN VALOVI PREDSTAVLJAJO IPSWICH KOT PRISTANIŠČE. ZNAK ZDRUŽUJE MESTO IN POKRAJINO.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Ipswich.",
+      "LETNICA USTANOVITVE JE 1878.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "england_ipswich_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Ipswich"
+  },
+  {
+    "name": "LEICESTER CITY",
+    "country": "ANGLIJA",
+    "founded_year": 1884,
+    "info_sl": "LISICA NA GRBU IZHAJA IZ VZDEVKA THE FOXES. LEICESTERSHIRE JE ZNAN PO TRADICIJI LOVOV NA LISICE. MODRA IN BELA STA KLUBSKI BARVI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Leicester.",
+      "LETNICA USTANOVITVE JE 1884.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "england_leicester_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Leicester"
+  },
+  {
+    "name": "NEWCASTLE UNITED",
+    "country": "ANGLIJA",
+    "founded_year": 1892,
+    "info_sl": "GRB PREVZEMA SIMBOLE MESTA NEWCASTLE, MED NJIMI GRAD IN MORSKA KONJIČKA. LADJA SPOMINJA NA POMORSKO IN TRGOVSKO ZGODOVINO. ČRNO-BELI ŠČIT PA SLEDI BARVAM KLUBA.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Newcastle upon Tyne.",
+      "LETNICA USTANOVITVE JE 1892.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "england_newcastle_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Newcastle upon Tyne"
+  },
+  {
+    "name": "OLDHAM ATHLETIC",
+    "country": "ANGLIJA",
+    "founded_year": 1895,
+    "info_sl": "SOVA NA GRBU JE POVEZANA Z VZDEVKOM THE OWLS. RDEČA VRTNICA PREDSTAVLJA LANCASHIRE. MODRA BARVA JE GLAVNA BARVA KLUBA.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Oldham.",
+      "LETNICA USTANOVITVE JE 1895.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "england_oldham_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Oldham"
+  },
+  {
+    "name": "OXFORD UNITED",
+    "country": "ANGLIJA",
+    "founded_year": 1893,
+    "info_sl": "GLAVA OXA NA GRBU JE BESEDNA IGRA Z IMENOM MESTA OXFORD. OX FORD POMENI KRAJ, KJER SO VOLI PREČKALI REKO. RUMENA IN MODRA STA KLUBSKI BARVI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Oxford.",
+      "LETNICA USTANOVITVE JE 1893.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "england_oxford-united_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Oxford"
+  },
+  {
+    "name": "SHEFFIELD UNITED",
+    "country": "ANGLIJA",
+    "founded_year": 1889,
+    "info_sl": "DVE PREKRIŽANI REZILI SPOMINJATA NA JEKLARSKO IN NOŽARSKO ZGODOVINO SHEFFIELDA. RDEČE-BELE PROGE SO BARVE DRESOV. VZDEVEK THE BLADES PRAV TAKO IZHAJA IZ TEGA SIMBOLA.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Sheffield.",
+      "LETNICA USTANOVITVE JE 1889.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "england_sheffield-united_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Sheffield"
+  },
+  {
+    "name": "WATFORD",
+    "country": "ANGLIJA",
+    "founded_year": 1881,
+    "info_sl": "HART JE STARI ANGLEŠKI IZRAZ ZA JELENA IN JE POVEZAN Z IMENOM HERTFORDSHIRE. JELEN NA GRBU TAKO GOVORI O OKROŽJU KLUBA. RUMENA IN ČRNA STA NJEGOVI BARVI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Watford.",
+      "LETNICA USTANOVITVE JE 1881.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "england_watford_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Watford"
+  },
+  {
+    "name": "WEST HAM UNITED",
+    "country": "ANGLIJA",
+    "founded_year": 1895,
+    "info_sl": "PREKRIŽANI KLADIVI SPOMINJATA NA LADJEDELNICO THAMES IRONWORKS, IZ KATERE JE KLUB ZRASEL. GRAD JE BIL DODAN KOT MESTNI SIMBOL. ZNAK OHRANJA SPOMIN NA DELAVSKE KORENINE KLUBA.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA London.",
+      "LETNICA USTANOVITVE JE 1895.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "england_west-ham_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "London"
+  },
+  {
+    "name": "LE HAVRE AC",
+    "country": "FRANCIJA",
+    "founded_year": 1872,
+    "info_sl": "GRB LE HAVRA PRIKAZUJE SALAMANDRA, ZGODOVINSKI SIMBOL MESTA. MODRA IN SVETLO MODRA STA BARVI KLUBA. SIMBOL SPOMINJA NA OBMORSKO MESTO IN NJEGOVO DEDIŠČINO.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Le Havre.",
+      "LETNICA USTANOVITVE JE 1872.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "france_le-havre-ac_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Le Havre"
+  },
+  {
+    "name": "LILLE OSC",
+    "country": "FRANCIJA",
+    "founded_year": 1944,
+    "info_sl": "PES NA GRBU LILLA JE POVEZAN Z VZDEVKOM LES DOGUES. ŽIVAL PREDSTAVLJA POGUM IN VZTRAJNOST. RDEČA IN BELA STA PREPOZNAVNI KLUBSKI BARVI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Lille.",
+      "LETNICA USTANOVITVE JE 1944.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "france_lille_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Lille"
+  },
+  {
+    "name": "BAYER LEVERKUSEN",
+    "country": "NEMČIJA",
+    "founded_year": 1904,
+    "info_sl": "DVA LEVA OB ŠČITU STA DEL TRADICIONALNEGA GRBA BAYERJA. ČRKE BAYER POVEZUJEJO KLUB S PODJETJEM, KJER JE NASTAL. RDEČA IN ČRNA STA GLAVNI KLUBSKI BARVI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Leverkusen.",
+      "LETNICA USTANOVITVE JE 1904.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "germany_bayer-leverkusen_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Leverkusen"
+  },
+  {
+    "name": "EINTRACHT FRANKFURT",
+    "country": "NEMČIJA",
+    "founded_year": 1899,
+    "info_sl": "OREL NA GRBU JE PREVZET IZ GRBA MESTA FRANKFURT. PREDSTAVLJA MOČ IN MESTNO IDENTITETO. RDEČA, ČRNA IN BELA SO KLUBSKE BARVE.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Frankfurt.",
+      "LETNICA USTANOVITVE JE 1899.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "germany_eintracht-frankfurt_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Frankfurt"
+  },
+  {
+    "name": "HAMBURGER SV",
+    "country": "NEMČIJA",
+    "founded_year": 1887,
+    "info_sl": "MODRO-BELI-ROMB NA ČRNEM OZADJU JE PREPROST ZNAK HAMBURGERJA. IZHAJA IZ SIGNALNE ZASTAVE MESTA HAMBURG. ZATO GRB POVEZUJE KLUB S POMORSKO TRADICIJO MESTA.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Hamburg.",
+      "LETNICA USTANOVITVE JE 1887.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "germany_hamburger-sv_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Hamburg"
+  },
+  {
+    "name": "HANSA ROSTOCK",
+    "country": "NEMČIJA",
+    "founded_year": 1965,
+    "info_sl": "KOGE, SREDNJEVEŠKA TRGOVSKA LADJA, PREDSTAVLJA HANSEATSKO PRETEKLOST ROSTOCKA. MODRA BARVA SPOMINJA NA MORJE. IME HANSA SE PRAV TAKO NANAŠA NA ZVEZO TRGOVSKIH MEST.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Rostock.",
+      "LETNICA USTANOVITVE JE 1965.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "germany_hansa-rostock_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Rostock"
+  },
+  {
+    "name": "RB LEIPZIG",
+    "country": "NEMČIJA",
+    "founded_year": 2009,
+    "info_sl": "DVA RDEČA BIKA NA GRBU STA DEL ZNAMKE RED BULL. ŽOGA V SREDINI JASNO POVE, DA GRE ZA NOGOMETNI KLUB. RDEČA, BELA IN MODRA SO BARVE ZNAČKE.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Leipzig.",
+      "LETNICA USTANOVITVE JE 2009.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "germany_rb-leipzig_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Leipzig"
+  },
+  {
+    "name": "AEK ATHENS",
+    "country": "GRČIJA",
+    "founded_year": 1924,
+    "info_sl": "DVOGLOVI OREL JE BIZANTINSKI SIMBOL IN SPOMINJA NA KORENINE USTANOVITELJEV IZ KONSTANTINOPLA. RUMENA IN ČRNA STA BARVI KLUBA. ZNAK OHRANJA SPOMIN NA SKUPNOST BEGUNCEV.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Atene.",
+      "LETNICA USTANOVITVE JE 1924.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "greece_aek-athens_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Atene"
+  },
+  {
+    "name": "ARIS THESSALONIKI",
+    "country": "GRČIJA",
+    "founded_year": 1914,
+    "info_sl": "NA GRBU JE ARES, STAROGRŠKI BOG VOJNE, PO KATEREM JE KLUB DOBIL IME. UPODOBLJEN JE SEDEČ, KOT NA STAROGRŠKIH KIPIH. RUMENA IN ČRNA STA KLUBSKI BARVI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Solun.",
+      "LETNICA USTANOVITVE JE 1914.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "greece_aris-thessaloniki_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Solun"
+  },
+  {
+    "name": "FERENCVÁROS",
+    "country": "MADŽARSKA",
+    "founded_year": 1899,
+    "info_sl": "ZELENO-BELI GRB FERENCVÁROSA NOSI DEVET ČRT, KI PREDSTAVLJAJO DEVET OKROŽIJ BUDIMPEŠTE. TRI ZVEZDE SO ZNAK USPEHOV V DOMAČEM PRVENSTVU. ČRKE FTC SO ZAČETNICE IMENA KLUBA.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Budimpešta.",
+      "LETNICA USTANOVITVE JE 1899.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "hungary_ferencvaros_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Budimpešta"
+  },
+  {
+    "name": "HONVÉD",
+    "country": "MADŽARSKA",
+    "founded_year": 1909,
+    "info_sl": "IME HONVÉD POMENI DOMOBRANEC IN POVEZUJE KLUB Z VOJAŠKO ZGODOVINO. RDEČA IN ČRNA STA BARVI EKIPE. GRB UPORABLJA KRONO IN ŠČIT KOT ZNAKA TRADICIJE.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Budimpešta.",
+      "LETNICA USTANOVITVE JE 1909.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "hungary_honved_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Budimpešta"
+  },
+  {
+    "name": "FIORENTINA",
+    "country": "ITALIJA",
+    "founded_year": 1926,
+    "info_sl": "VIJOLIČNA LILIJA JE SIMBOL FIRENC IN SE IMENUJE GIGLIO. KLUB JO JE PREVZEL, DA BI BIL NEPOSREDNO POVEZAN Z MESTOM. VIJOLIČNA BARVA JE POSTALA NJEGOV PREPOZNAVNI ZNAK.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Firence.",
+      "LETNICA USTANOVITVE JE 1926.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "italy_fiorentina_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Firence"
+  },
+  {
+    "name": "PALERMO",
+    "country": "ITALIJA",
+    "founded_year": 1900,
+    "info_sl": "ORLOVA GLAVA NA GRBU JE PREVZETA IZ MESTNIH SIMBOLOV PALERMA. ROŽNATA IN ČRNA STA NENAVADNI, A TRADICIONALNI KLUBSKI BARVI. ZNAK ZATO POVEZUJE MESTO, ŽIVAL IN BARVE.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Palermo.",
+      "LETNICA USTANOVITVE JE 1900.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "italy_palermo_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Palermo"
+  },
+  {
+    "name": "PESCARA",
+    "country": "ITALIJA",
+    "founded_year": 1936,
+    "info_sl": "DELFIN NA GRBU PESCARA SPOMINJA NA JADRANSKO MORJE OB MESTU. MODRA IN BELA STA BARVI MORJA IN KLUBA. ZNAK POVEZUJE EKIPO Z OBMORSKIM DOMOM.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Pescara.",
+      "LETNICA USTANOVITVE JE 1936.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "italy_pescara_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Pescara"
+  },
+  {
+    "name": "JEF UNITED CHIBA",
+    "country": "JAPONSKA",
+    "founded_year": 1946,
+    "info_sl": "IME JEF JE SESTAVLJENO IZ ZAČETNIC PODJETIJ JR EAST IN FURUKAWA ELECTRIC. PES NA GRBU JE POVEZAN Z VZDEVKOM JEF UNITED. RUMENA IN ZELENA STA KLUBSKI BARVI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Chiba.",
+      "LETNICA USTANOVITVE JE 1946.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "japan_jef-united-chiba_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Chiba"
+  },
+  {
+    "name": "KASHIMA ANTLERS",
+    "country": "JAPONSKA",
+    "founded_year": 1947,
+    "info_sl": "ROGOVJE NA GRBU SE NAVEZUJE NA IME ANTLERS, KAR POMENI JELENJE ROGOVJE. JELEN JE POVEZAN TUDI S SVETIŠČEM KASHIMA. RDEČA IN TEMNO MODRA STA BARVI KLUBA.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Kashima.",
+      "LETNICA USTANOVITVE JE 1947.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "japan_kashima-antlers_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Kashima"
+  },
+  {
+    "name": "TOKYO VERDY",
+    "country": "JAPONSKA",
+    "founded_year": 1969,
+    "info_sl": "VERDY IZHAJA IZ PORTUGALSKE BESEDE VERDE, KI POMENI ZELENO. ZELENA BARVA JE ZATO OSREDNJI DEL GRBA IN IDENTITETE. PTICA NA ZNAKU POUDAREK DAJE GIBANJU IN ENERGIJI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Tokio.",
+      "LETNICA USTANOVITVE JE 1969.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "japan_tokyo-verdy_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Tokio"
+  },
+  {
+    "name": "CRUZ AZUL",
+    "country": "MEHIKA",
+    "founded_year": 1927,
+    "info_sl": "MODRI KRIŽ NA GRBU JE NEPOSREDNO POVEZAN Z IMENOM CRUZ AZUL, MODRI KRIŽ. DEVET ZVEZD OZNAČUJE KLUBSKE NASLOVE V MEHIŠKI LIGI. ZNAK JE POVEZAN S CEMENTARNO, KI JE KLUB USTANOVILA.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Mexico City.",
+      "LETNICA USTANOVITVE JE 1927.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "mexico_cruz-azul_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Mexico City"
+  },
+  {
+    "name": "RAJA CASABLANCA",
+    "country": "MAROKO",
+    "founded_year": 1949,
+    "info_sl": "ZELENI OREL NA GRBU RAJE PREDSTAVLJA MOČ IN POGUM. ZELENA BARVA JE TEMELJ KLUBSKE IDENTITETE. ZVEZDA IN ARABSKI NAPIS POVEZUJETA ZNAK Z MAROKOM IN CASABLANCO.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Casablanca.",
+      "LETNICA USTANOVITVE JE 1949.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "morocco_raja-ca_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Casablanca"
+  },
+  {
+    "name": "SPORTING CP",
+    "country": "PORTUGALSKA",
+    "founded_year": 1906,
+    "info_sl": "LEV NA GRBU SPORTINGA JE SIMBOL MOČI IN JE ŽE OD ZAČETKA DEL KLUBSKE IDENTITETE. ZELENA BARVA JE ZNAČILNA ZA KLUB. PET ZVEZD NAD GRBOM OZNAČUJE VEČKRATNE DRŽAVNE NASLOVE.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Lizbona.",
+      "LETNICA USTANOVITVE JE 1906.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "portugal_sporting-cp_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Lizbona"
+  },
+  {
+    "name": "CSKA MOSKVA",
+    "country": "RUSIJA",
+    "founded_year": 1911,
+    "info_sl": "RDEČA ZVEZDA IN ŠČIT SPOMINJATA NA VOJAŠKE KORENINE KLUBA. CSKA POMENI OSREDNJI ŠPORTNI KLUB VOJSKE. RDEČA, MODRA IN ZLATA SO BARVE GRBA.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Moskva.",
+      "LETNICA USTANOVITVE JE 1911.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "russia_cska-moskva_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Moskva"
+  },
+  {
+    "name": "LOKOMOTIV MOSKVA",
+    "country": "RUSIJA",
+    "founded_year": 1922,
+    "info_sl": "LOKOMOTIVA NA GRBU POVEZuje KLUB Z ŽELEZNICAMI. KRATICA L JE ZAČETNICA IMENA LOKOMOTIV. RDEČA IN ZELENA STA TRADICIONALNI BARVI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Moskva.",
+      "LETNICA USTANOVITVE JE 1922.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "russia_lokomotiv-moskva_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Moskva"
+  },
+  {
+    "name": "RUBIN KAZAN",
+    "country": "RUSIJA",
+    "founded_year": 1958,
+    "info_sl": "ZMAJ ZILANT NA GRBU JE SIMBOL MESTA KAZAN. IME RUBIN POMENI DRAGI KAMEN RUBIN. RDEČA IN ZELENA POVEZUJETA ZNAK Z MESTNO IN KLUBSKO IDENTITETO.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Kazan.",
+      "LETNICA USTANOVITVE JE 1958.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "russia_rubin_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Kazan"
+  },
+  {
+    "name": "AL NASSR",
+    "country": "SAVDSKA ARABIJA",
+    "founded_year": 1955,
+    "info_sl": "IME AL NASSR POMENI ZMAGA. ZEMLJEVID ARABSKEGA POLOTOKA V GRBU POVEZUJE KLUB Z REGIJO. RUMENA IN MODRA STA GLAVNI KLUBSKI BARVI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Riad.",
+      "LETNICA USTANOVITVE JE 1955.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "saudi-arabia_al-nassr_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Riad"
+  },
+  {
+    "name": "ABERDEEN",
+    "country": "ŠKOTSKA",
+    "founded_year": 1903,
+    "info_sl": "RDEČI KROG Z MONOGRAMOM AFC UPORABLJA ZAČETNICE KLUBA. DVE ZVEZDI OZNAČUJETA EVROPSKA POKALA, OSVOJENA LETA 1983. RDEČA JE NAJPREPOZNAVNEJŠA BARVA KLUBA.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Aberdeen.",
+      "LETNICA USTANOVITVE JE 1903.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "scotland_aberdeen_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Aberdeen"
+  },
+  {
+    "name": "CRVENA ZVEZDA",
+    "country": "SRBIJA",
+    "founded_year": 1945,
+    "info_sl": "RDEČA ZVEZDA NA BELEM ŠČITU JE NEPOSREDNO POVEZANA Z IMENOM KLUBA. RDEČA IN BELA STA TRADICIONALNI BARVI. ZVEZDE NAD GRBOM OZNAČUJEJO ŠTEVILO DRŽAVNIH NASLOVOV.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Beograd.",
+      "LETNICA USTANOVITVE JE 1945.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "serbia_crvena-zvezda_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Beograd"
+  },
+  {
+    "name": "PARTIZAN",
+    "country": "SRBIJA",
+    "founded_year": 1945,
+    "info_sl": "RDEČA ZVEZDA IN ČRNO-BELI KROG STA OSREDNJA SIMBOLA PARTIZANA. IME SE NAVEZUJE NA PARTIZANE IZ DRUGE SVETOVNE VOJNE. ČRKE FKP SO ZAČETNICE IMENA V SRBŠČINI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Beograd.",
+      "LETNICA USTANOVITVE JE 1945.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "serbia_partizan_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Beograd"
+  },
+  {
+    "name": "RADNIČKI 1923",
+    "country": "SRBIJA",
+    "founded_year": 1923,
+    "info_sl": "IME RADNIČKI POMENI DELAVSKI IN SPOMINJA NA KORENINE KLUBA. LETNICA 1923 JE JASNO VKLJUČENA V IDENTITETO. RDEČA IN BELA STA NJEGOVI BARVI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Kragujevac.",
+      "LETNICA USTANOVITVE JE 1923.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "serbia_radnicki-1923_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Kragujevac"
+  },
+  {
+    "name": "KAIZER CHIEFS",
+    "country": "JUŽNA AFRIKA",
+    "founded_year": 1970,
+    "info_sl": "GLAVA POGOGLAVARJA NA GRBU POVEZUJE IME CHIEFS Z VODITELJEM. ZLATA IN ČRNA STA PREPOZNAVNI KLUBSKI BARVI. ZNAK POUDAREK DAJE PONOSU IN VODSTVU.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Johannesburg.",
+      "LETNICA USTANOVITVE JE 1970.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "south-africa_kaizer-chiefs_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Johannesburg"
+  },
+  {
+    "name": "GWANGJU FC",
+    "country": "JUŽNA KOREJA",
+    "founded_year": 2010,
+    "info_sl": "GRB GWANGJUJA UPORABLJA BARVE IN ČRKE, KI POVEZUJEJO KLUB Z MESTOM. LEV PREDSTAVLJA POGUM IN ODPORNOST. ZNAK JE ZASNOVAN KOT MODERNI MESTNI ŠČIT.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Gwangju.",
+      "LETNICA USTANOVITVE JE 2010.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "south-korea_gwangju-fc_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Gwangju"
+  },
+  {
+    "name": "ULSAN HD FC",
+    "country": "JUŽNA KOREJA",
+    "founded_year": 1983,
+    "info_sl": "TIGER NA GRBU PREDSTAVLJA MOČ, HITROST IN VZDEVEK KLUBA. IME ULSAN POVEZUJE EKIPO Z INDUSTRIJSKIM OBALNIM MESTOM. MODRA IN RUMENA STA KLUBSKI BARVI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Ulsan.",
+      "LETNICA USTANOVITVE JE 1983.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "south-korea_ulsan-hd-fc_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Ulsan"
+  },
+  {
+    "name": "IFK GÖTEBORG",
+    "country": "ŠVEDSKA",
+    "founded_year": 1904,
+    "info_sl": "MODRO-BELI ŠČIT IN LEV IZHAJATA IZ MESTNE HERALDIKE GÖTEBORGA. ZVEZDA NAD GRBOM OZNAČUJE VELIKO ŠTEVILO DRŽAVNIH NASLOVOV. ZNAK KLUB POVEZUJE Z MESTOM.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Göteborg.",
+      "LETNICA USTANOVITVE JE 1904.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "sweden_goteborg_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Göteborg"
+  },
+  {
+    "name": "FC BASEL",
+    "country": "ŠVICA",
+    "founded_year": 1893,
+    "info_sl": "RDEČE-MODRA BARVA GRBA STA BARVI FC BASEL. ŠČIT Z ZAČETNICAMA FCB JE PREPROST ZNAK KLUBSKE IDENTITETE. BARVNA DELITEV JE POSTALA ZGLED ZA ŠTEVILNE DRESE.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Basel.",
+      "LETNICA USTANOVITVE JE 1893.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "switzerland_basel_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Basel"
+  },
+  {
+    "name": "PEÑAROL",
+    "country": "URUGVAJ",
+    "founded_year": 1891,
+    "info_sl": "ČRNO-RUMENE PROGE PEÑAROLA IZHAJAJO IZ BARV ŽELEZNICE. KLUB SO USTANOVILI DELAVCI CENTRAL URUGUAY RAILWAY. ZVEZDE NA GRBU SO POVEZANE Z NASLOVI.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Montevideo.",
+      "LETNICA USTANOVITVE JE 1891.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "uruguay_penarol_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Montevideo"
+  },
+  {
+    "name": "INTER MIAMI CF",
+    "country": "ZDA",
+    "founded_year": 2018,
+    "info_sl": "DVE ČAPLJI NA GRBU STA PREPLETENI IN TVORITA ČRKO M ZA MIAMI. MED NJIMA JE SONCE S SEDEM ŽARKI, KI NAKAZUJEJO LETO 2020, PRVO SEZONO KLUBA. ROŽNATA IN ČRNA STA BARVI ZNAČKE.",
+    "trivia_sl": [
+      "KLUB JE IZ MESTA Miami.",
+      "LETNICA USTANOVITVE JE 2018.",
+      "GRB JE URADNI SIMBOL KLUBA."
+    ],
+    "crest": "usa_inter-miami-cf_700x700.football-logos.cc.png",
+    "primaryColor": "#1B1B1B",
+    "secondaryColor": "#FFFFFF",
+    "flagCode": "",
+    "city": "Miami"
   }
 ]
