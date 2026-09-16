@@ -670,7 +670,7 @@ function WorldMapPage({ onGoEurope }) {
           return (
             <button key={continent.id}
               onClick={() => { if (continent.hasMap) onGoEurope(); else setTooltip(tooltip === continent.id ? null : continent.id); }}
-              style={{ position: "absolute", left: , top: , transform: "translate(-50%, -50%)", background: continent.hasMap ? "#FFD23F" : "#FFFFFF", border: "2px solid #10243E", borderRadius: "14px", padding: "5px 10px", cursor: "pointer", boxShadow: "0 3px 0 rgba(16,36,62,0.5)", display: "flex", flexDirection: "column", alignItems: "center", gap: "2px", zIndex: 2 }}
+              style={{ position: "absolute", left: `${continent.x}%`, top: `${continent.y}%`, transform: "translate(-50%, -50%)", background: continent.hasMap ? "#FFD23F" : "#FFFFFF", border: "2px solid #10243E", borderRadius: "14px", padding: "5px 10px", cursor: "pointer", boxShadow: "0 3px 0 rgba(16,36,62,0.5)", display: "flex", flexDirection: "column", alignItems: "center", gap: "2px", zIndex: 2 }}
             >
               <span className="ng-app" style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: "11px", color: INK, whiteSpace: "nowrap" }}>{continent.label}</span>
               <span style={{ background: continent.hasMap ? "#10243E" : "#D9455F", color: "#FFFFFF", borderRadius: "999px", padding: "1px 7px", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: "11px" }}>{count}</span>
@@ -762,7 +762,7 @@ function EuropeMapPage({ onGoClub, onGoWorldMap }) {
           const isActive = activePin === club.name;
           const crestImg = club.crest ?  : null;
           return (
-            <div key={club.name} style={{ position: "absolute", left: , top: , transform: "translate(-50%, -100%)", zIndex: isActive ? 10 : 3 }}>
+            <div key={club.name} style={{ position: "absolute", left: `${pin.x}%`, top: `${pin.y}%`, transform: "translate(-50%, -100%)", zIndex: isActive ? 10 : 3 }}>
               {isActive && (
                 <div onClick={() => onGoClub(club.name)} style={{ position: "absolute", bottom: "calc(100% + 6px)", left: "50%", transform: "translateX(-50%)", background: "#FFFDF7", border: "2px solid #10243E", borderRadius: "14px", padding: "10px 12px", display: "flex", alignItems: "center", gap: "10px", cursor: "pointer", boxShadow: "0 4px 0 rgba(16,36,62,0.25)", whiteSpace: "nowrap", minWidth: "160px", zIndex: 20 }}>
                   {crestImg && <img src={crestImg} alt="" style={{ width: "32px", height: "32px", objectFit: "contain", flexShrink: 0 }} />}
