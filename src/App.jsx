@@ -2,6 +2,7 @@ import { useState, useMemo } from "react";
 import clubsData from "./clubs.json";
 import background from "./slike/background.webp";
 import mascot from "./slike/mascot.png";
+import footballHero from "./slike/football-hero.jpg";
 
 const FONT_DISPLAY = "'Baloo 2', system-ui, sans-serif";
 const FONT_BODY = "'Nunito', system-ui, sans-serif";
@@ -118,7 +119,7 @@ function Card({ children, accent, style: styleProp }) {
   );
 }
 
-function TopBar({ onHome, page }) {
+function TopBar({ onHome, onGoClubs, page }) {
   return (
     <div
       style={{
@@ -144,18 +145,23 @@ function TopBar({ onHome, page }) {
           Domov
         </span>
       </button>
-      {page === "detail" && (
-        <GameButton small color="#5B3FD9" onClick={onHome}>← Vsi klubi</GameButton>
-      )}
+      <div style={{ display: "flex", gap: "10px" }}>
+        {page !== "home" && (
+          <GameButton small color="#2FAE60" onClick={onGoClubs}>🏆 Vsi klubi</GameButton>
+        )}
+        {page === "detail" && (
+          <GameButton small color="#5B3FD9" onClick={onHome}>← Nazaj</GameButton>
+        )}
+      </div>
     </div>
   );
 }
 
-function PageShell({ children, onHome, page }) {
+function PageShell({ children, onHome, onGoClubs, page }) {
   return (
     <div style={{ minHeight: "100vh", width: "100%", display: "flex", flexDirection: "column", position: "relative", overflow: "hidden", fontFamily: FONT_BODY }}>
       <GlobalStyle />
-      <TopBar onHome={onHome} page={page} />
+      <TopBar onHome={onHome} onGoClubs={onGoClubs} page={page} />
       <div
         style={{
           position: "absolute",
@@ -174,6 +180,255 @@ function PageShell({ children, onHome, page }) {
       </div>
       <div style={{ position: "relative", zIndex: 2, flex: 1 }}>
         {children}
+      </div>
+    </div>
+  );
+}
+
+/* ─── HOME PAGE ───────────────────────────────────────────────── */
+
+function HomePage({ onGoClubs, onGoClub }) {
+  const klubDneva = useMemo(() => {
+    const withCrest = clubsData.filter((c) => c.crest);
+    const day = Math.floor(Date.now() / 86400000);
+    return withCrest[day % withCrest.length];
+  }, []);
+
+  const firstSentence = klubDneva
+    ? klubDneva.info_sl.split(/(?<=\.)\s+/)[0]
+    : "";
+
+  return (
+    <div style={{ display: "flex", flexDirection: "column", minHeight: "calc(100vh - 62px)" }}>
+      {/* Hero image */}
+      <div
+        style={{
+          position: "relative",
+          flex: "0 0 auto",
+          height: "clamp(260px, 45vh, 480px)",
+          overflow: "hidden",
+        }}
+      >
+        <img
+          src={footballHero}
+          alt="Nogometni grbi"
+          style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+        />
+        {/* Dark gradient overlay + hero text */}
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background: "linear-gradient(to bottom, rgba(6,20,10,0.15) 0%, rgba(6,20,10,0.72) 100%)",
+            display: "flex",
+            alignItems: "flex-end",
+            padding: "32px 28px",
+          }}
+        >
+          <div>
+            <div
+              className="ng-app"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "8px",
+                background: "#2FAE60",
+                border: "2px solid #10243E",
+                borderRadius: "10px",
+                padding: "5px 14px 6px",
+                fontFamily: FONT_DISPLAY,
+                fontWeight: 700,
+                fontSize: "13px",
+                color: "#FFFFFF",
+                boxShadow: "0 2px 0 rgba(16,36,62,0.4)",
+                marginBottom: "12px",
+              }}
+            >
+              ⚽ Zbirka za prave navijače
+            </div>
+            <h1
+              className="ng-app"
+              style={{
+                fontFamily: FONT_DISPLAY,
+                fontWeight: 800,
+                fontSize: "clamp(22px, 4vw, 44px)",
+                color: "#FFFFFF",
+                lineHeight: 1.15,
+                textShadow: "0 2px 4px rgba(0,0,0,0.5)",
+                maxWidth: "640px",
+                marginBottom: "8px",
+              }}
+            >
+              Vsak grb skriva zgodbo.
+            </h1>
+            <p
+              className="ng-app"
+              style={{
+                fontFamily: FONT_BODY,
+                fontWeight: 700,
+                fontSize: "clamp(13px, 2vw, 17px)",
+                color: "rgba(255,255,255,0.88)",
+                textShadow: "0 1px 3px rgba(0,0,0,0.5)",
+                maxWidth: "560px",
+              }}
+            >
+              Odkrij junake, netopirje, topove in barve velikih klubov.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Content below hero */}
+      <div
+        style={{
+          flex: 1,
+          position: "relative",
+          zIndex: 2,
+          background: "linear-gradient(180deg, rgba(6,20,10,0.32), rgba(6,20,10,0.52))",
+        }}
+      >
+        <div style={{ maxWidth: "1080px", margin: "0 auto", padding: "28px 20px 48px", display: "flex", flexDirection: "column", gap: "28px" }}>
+
+          {/* CTA buttons */}
+          <div style={{ display: "flex", gap: "14px", flexWrap: "wrap" }}>
+            <button
+              onClick={onGoClubs}
+              className="ng-app"
+              style={{
+                fontFamily: FONT_DISPLAY,
+                fontWeight: 800,
+                fontSize: "16px",
+                color: "#FFFFFF",
+                background: "#2FAE60",
+                border: "2px solid #10243E",
+                borderRadius: "18px",
+                padding: "14px 28px",
+                cursor: "pointer",
+                boxShadow: "0 4px 0 rgba(16,36,62,0.7)",
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "8px",
+              }}
+            >
+              🏆 Vsi klubi
+            </button>
+            <button
+              className="ng-app"
+              style={{
+                fontFamily: FONT_DISPLAY,
+                fontWeight: 800,
+                fontSize: "16px",
+                color: "#FFFFFF",
+                background: "#2F86D6",
+                border: "2px solid #10243E",
+                borderRadius: "18px",
+                padding: "14px 28px",
+                cursor: "pointer",
+                boxShadow: "0 4px 0 rgba(16,36,62,0.7)",
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "8px",
+                opacity: 0.7,
+              }}
+            >
+              📍 Zemljevid <span style={{ fontSize: "11px", opacity: 0.8 }}>(kmalu)</span>
+            </button>
+          </div>
+
+          {/* Klub dneva */}
+          {klubDneva && (
+            <div>
+              <div
+                className="ng-app"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  background: "#FFD23F",
+                  border: "2px solid #10243E",
+                  borderRadius: "10px",
+                  padding: "5px 14px 6px",
+                  fontFamily: FONT_DISPLAY,
+                  fontWeight: 700,
+                  fontSize: "13px",
+                  color: INK,
+                  boxShadow: "0 2px 0 rgba(16,36,62,0.4)",
+                  marginBottom: "12px",
+                }}
+              >
+                ⭐ Klub dneva
+              </div>
+              <div
+                onClick={() => onGoClub(klubDneva.name)}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "20px",
+                  background: "#FFFDF7",
+                  border: "3px solid #10243E",
+                  borderRadius: "24px",
+                  padding: "20px",
+                  cursor: "pointer",
+                  boxShadow: "0 5px 0 rgba(16,36,62,0.2)",
+                  maxWidth: "520px",
+                  transition: "transform 120ms ease",
+                }}
+                onMouseEnter={(e) => e.currentTarget.style.transform = "translateY(-2px)"}
+                onMouseLeave={(e) => e.currentTarget.style.transform = "translateY(0)"}
+              >
+                <div
+                  style={{
+                    width: "90px",
+                    height: "90px",
+                    borderRadius: "50%",
+                    background: "#EAF3FF",
+                    border: "2px solid #10243E",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    overflow: "hidden",
+                    flexShrink: 0,
+                  }}
+                >
+                  <img
+                    src={`/grbi/${klubDneva.crest}`}
+                    alt={klubDneva.name}
+                    style={{ width: "74px", height: "74px", objectFit: "contain" }}
+                  />
+                </div>
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <div
+                    className="ng-app"
+                    style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: "18px", color: INK, marginBottom: "6px" }}
+                  >
+                    {klubDneva.name}
+                  </div>
+                  <p
+                    className="ng-app"
+                    style={{ fontFamily: FONT_BODY, fontSize: "14px", color: `${INK}CC`, lineHeight: 1.45, margin: 0 }}
+                  >
+                    {firstSentence}
+                  </p>
+                  <div
+                    className="ng-app"
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "6px",
+                      marginTop: "10px",
+                      fontFamily: FONT_DISPLAY,
+                      fontWeight: 700,
+                      fontSize: "12px",
+                      color: "#2FAE60",
+                    }}
+                  >
+                    Odkrij zgodbo →
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
@@ -472,14 +727,16 @@ function DetailPage({ clubName }) {
 /* ─── APP ROOT ────────────────────────────────────────────────── */
 
 export default function App() {
-  const [page, setPage] = useState("clubs");
+  const [page, setPage] = useState("home");
   const [selectedClub, setSelectedClub] = useState(null);
 
   const goToClub = (name) => { setSelectedClub(name); setPage("detail"); };
-  const goHome = () => { setPage("clubs"); setSelectedClub(null); };
+  const goHome = () => { setPage("home"); setSelectedClub(null); };
+  const goClubs = () => { setPage("clubs"); setSelectedClub(null); };
 
   return (
-    <PageShell onHome={goHome} page={page}>
+    <PageShell onHome={goHome} onGoClubs={goClubs} page={page}>
+      {page === "home" && <HomePage onGoClubs={goClubs} onGoClub={goToClub} />}
       {page === "clubs" && <ClubsPage onSelectClub={goToClub} />}
       {page === "detail" && <DetailPage clubName={selectedClub} />}
     </PageShell>
