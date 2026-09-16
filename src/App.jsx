@@ -3,6 +3,8 @@ import clubsData from "./clubs.json";
 import background from "./slike/background.webp";
 import mascot from "./slike/mascot.png";
 import footballHero from "./slike/football-hero.jpg";
+import mapWorld from "./slike/map-world.webp";
+import mapEurope from "./slike/map-europe.webp";
 
 const FONT_DISPLAY = "'Baloo 2', system-ui, sans-serif";
 const FONT_BODY = "'Nunito', system-ui, sans-serif";
@@ -119,7 +121,7 @@ function Card({ children, accent, style: styleProp }) {
   );
 }
 
-function TopBar({ onHome, onGoClubs, page }) {
+function TopBar({ onHome, onGoClubs, onGoMap, page }) {
   return (
     <div
       style={{
@@ -146,23 +148,19 @@ function TopBar({ onHome, onGoClubs, page }) {
         </span>
       </button>
       <div style={{ display: "flex", gap: "10px" }}>
-        {page !== "home" && (
-          <GameButton small color="#2FAE60" onClick={onGoClubs}>🏆 Vsi klubi</GameButton>
-        )}
-        {page === "detail" && (
-          <GameButton small color="#5B3FD9" onClick={onHome}>← Nazaj</GameButton>
-        )}
+        <GameButton small color="#2FAE60" onClick={onGoClubs}>🏆 Klubi</GameButton>
+        <GameButton small color="#2F86D6" onClick={onGoMap}>📍 Zemljevid</GameButton>
       </div>
     </div>
   );
 }
 
-function PageShell({ children, onHome, onGoClubs, page }) {
+function PageShell({ children, onHome, onGoClubs, onGoMap, page }) {
   const bgImage = page === "home" ? footballHero : background;
   return (
     <div style={{ minHeight: "100vh", width: "100%", display: "flex", flexDirection: "column", position: "relative", overflow: "hidden", fontFamily: FONT_BODY }}>
       <GlobalStyle />
-      <TopBar onHome={onHome} onGoClubs={onGoClubs} page={page} />
+      <TopBar onHome={onHome} onGoClubs={onGoClubs} onGoMap={onGoMap} page={page} />
       <div
         style={{
           position: "absolute",
@@ -179,7 +177,7 @@ function PageShell({ children, onHome, onGoClubs, page }) {
         <span className="twinkle" style={{ position: "absolute", top: "22%", right: "10%", fontSize: 18, animationDelay: "0.6s" }}>⭐</span>
         <span className="twinkle" style={{ position: "absolute", bottom: "14%", left: "12%", fontSize: 16, animationDelay: "1.1s" }}>✨</span>
       </div>
-      <div style={{ position: "relative", zIndex: 2, flex: 1 }}>
+      <div style={{ position: "relative", zIndex: 2, flex: 1, display: "flex", flexDirection: "column", alignItems: "stretch" }}>
         {children}
       </div>
     </div>
@@ -188,7 +186,7 @@ function PageShell({ children, onHome, onGoClubs, page }) {
 
 /* ─── HOME PAGE ───────────────────────────────────────────────── */
 
-function HomePage({ onGoClubs, onGoClub }) {
+function HomePage({ onGoClubs, onGoClub, onGoMap }) {
   const klubDneva = useMemo(() => {
     const withCrest = clubsData.filter((c) => c.crest);
     const day = Math.floor(Date.now() / 86400000);
@@ -200,7 +198,7 @@ function HomePage({ onGoClubs, onGoClub }) {
     : "";
 
   return (
-    <div style={{ minHeight: "calc(100vh - 62px)", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+    <div style={{ minHeight: "calc(100vh - 62px)", display: "flex", flexDirection: "column" }}>
       <div style={{ maxWidth: "1080px", margin: "0 auto", padding: "48px 28px", display: "flex", flexDirection: "column", gap: "36px" }}>
 
         {/* Hero text */}
@@ -272,18 +270,18 @@ function HomePage({ onGoClubs, onGoClub }) {
             🏆 Vsi klubi
           </button>
           <button
+            onClick={onGoMap}
             className="ng-app"
             style={{
               fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: "16px",
               color: "#FFFFFF", background: "#2F86D6",
               border: "2px solid #10243E", borderRadius: "18px",
-              padding: "14px 28px", cursor: "not-allowed",
+              padding: "14px 28px", cursor: "pointer",
               boxShadow: "0 4px 0 rgba(16,36,62,0.7)",
               display: "inline-flex", alignItems: "center", gap: "8px",
-              opacity: 0.65,
             }}
           >
-            📍 Zemljevid <span style={{ fontSize: "11px", opacity: 0.8 }}>(kmalu)</span>
+            📍 Zemljevid
           </button>
         </div>
 
@@ -489,8 +487,8 @@ function DetailPage({ clubName }) {
   const sentences = club.info_sl.split(/(?<=\.)\s+/).filter(Boolean);
   const [showCrestZoom, setShowCrestZoom] = useState(false);
 
-  const goPrev = () => { setShowCrestZoom(false); setIndex((i) => (i - 1 + clubsData.length) % clubsData.length); };
-  const goNext = () => { setShowCrestZoom(false); setIndex((i) => (i + 1) % clubsData.length); };
+  const goPrev = () => { setShowCrestZoom(false); setIndex((i) => (i - 1 + clubsData.length) % clubsData.length); window.scrollTo(0,0); };
+  const goNext = () => { setShowCrestZoom(false); setIndex((i) => (i + 1) % clubsData.length); window.scrollTo(0,0); };
 
   return (
     <div style={{ "--primary": primary, "--secondary": secondary, maxWidth: "1080px", margin: "0 auto", padding: "18px 20px 40px" }}>
@@ -637,19 +635,177 @@ function DetailPage({ clubName }) {
 
 /* ─── APP ROOT ────────────────────────────────────────────────── */
 
+/* ─── WORLD MAP PAGE ──────────────────────────────────────────── */
+
+const EUROPEAN_COUNTRIES = [
+  'ANGLIJA','ŠPANIJA','ITALIJA','NEMČIJA','NIZOZEMSKA','FRANCIJA',
+  'PORTUGALSKA','ŠKOTSKA','TURČIJA','GRČIJA','HRVAŠKA','SLOVENIJA',
+  'ČEŠKA','POLJSKA','IRSKA','MONAKO'
+];
+
+const CONTINENTS = [
+  { id: 'europe',        label: 'Evropa',    hasMap: true,  x: 51, y: 28, filter: (c) => EUROPEAN_COUNTRIES.includes(c.country) },
+  { id: 'africa',        label: 'Afrika',    hasMap: false, x: 52, y: 60, filter: (c) => ['MAROKO','EGIPT','JUŽNA AFRIKA'].includes(c.country) },
+  { id: 'asia',          label: 'Azija',     hasMap: false, x: 72, y: 38, filter: (c) => ['JAPONSKA','SAVDSKA ARABIJA'].includes(c.country) },
+  { id: 'south-america', label: 'J. Amerika',hasMap: false, x: 30, y: 68, filter: (c) => ['ARGENTINA','BRAZILIJA'].includes(c.country) },
+  { id: 'north-america', label: 'S. Amerika',hasMap: false, x: 20, y: 35, filter: (c) => ['ZDA','MEHIKA'].includes(c.country) },
+];
+
+function WorldMapPage({ onGoEurope }) {
+  const [tooltip, setTooltip] = useState(null);
+  return (
+    <div style={{ maxWidth: "1080px", margin: "0 auto", padding: "20px 20px 40px" }}>
+      <div style={{ marginBottom: "18px" }}>
+        <div style={{ display: "inline-block", background: "#2F86D6", padding: "5px 14px 7px", borderRadius: "10px", transform: "rotate(-1deg)", boxShadow: "0 3px 0 rgba(16,36,62,0.22)", marginBottom: "10px" }}>
+          <span className="ng-app" style={{ fontFamily: FONT_DISPLAY, fontWeight: 700, fontSize: "13px", color: "#FFFFFF" }}>Zemljevid</span>
+        </div>
+        <h1 className="ng-app" style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: "clamp(26px, 4vw, 38px)", color: "#FFFFFF", textShadow: "0 2px 0 rgba(16,36,62,0.5)", marginBottom: "6px" }}>Kje igrajo klubi?</h1>
+        <p className="ng-app" style={{ fontFamily: FONT_BODY, fontWeight: 700, fontSize: "14px", color: "#FFFFFF", textShadow: "0 1px 0 rgba(16,36,62,0.4)" }}>Tapni kontinent in poglej klube.</p>
+      </div>
+      <div style={{ position: "relative", borderRadius: "20px", overflow: "hidden", border: "3px solid #10243E", boxShadow: "0 6px 0 rgba(16,36,62,0.2)" }}>
+        <img src={mapWorld} alt="Zemljevid sveta" style={{ width: "100%", display: "block" }} />
+        {CONTINENTS.map((continent) => {
+          const count = clubsData.filter(continent.filter).length;
+          if (count === 0) return null;
+          return (
+            <button key={continent.id}
+              onClick={() => { if (continent.hasMap) onGoEurope(); else setTooltip(tooltip === continent.id ? null : continent.id); }}
+              style={{ position: "absolute", left: , top: , transform: "translate(-50%, -50%)", background: continent.hasMap ? "#FFD23F" : "#FFFFFF", border: "2px solid #10243E", borderRadius: "14px", padding: "5px 10px", cursor: "pointer", boxShadow: "0 3px 0 rgba(16,36,62,0.5)", display: "flex", flexDirection: "column", alignItems: "center", gap: "2px", zIndex: 2 }}
+            >
+              <span className="ng-app" style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: "11px", color: INK, whiteSpace: "nowrap" }}>{continent.label}</span>
+              <span style={{ background: continent.hasMap ? "#10243E" : "#D9455F", color: "#FFFFFF", borderRadius: "999px", padding: "1px 7px", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: "11px" }}>{count}</span>
+              {tooltip === continent.id && (
+                <div style={{ position: "absolute", bottom: "calc(100% + 8px)", left: "50%", transform: "translateX(-50%)", background: "#10243E", color: "#FFFFFF", borderRadius: "10px", padding: "6px 12px", fontFamily: FONT_DISPLAY, fontWeight: 700, fontSize: "11px", whiteSpace: "nowrap", zIndex: 10, boxShadow: "0 3px 6px rgba(0,0,0,0.3)" }}>
+                  🚧 Kmalu!
+                  <div style={{ position: "absolute", top: "100%", left: "50%", transform: "translateX(-50%)", borderLeft: "6px solid transparent", borderRight: "6px solid transparent", borderTop: "6px solid #10243E" }} />
+                </div>
+              )}
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+/* ─── EUROPE MAP PAGE ─────────────────────────────────────────── */
+
+const EUROPE_PINS = {
+  "MANCHESTER CITY":          { x: 30, y: 22 },
+  "MANCHESTER UNITED":        { x: 31, y: 23 },
+  "LIVERPOOL FC":             { x: 30, y: 25 },
+  "CHELSEA FC":               { x: 32, y: 28 },
+  "TOTTENHAM HOTSPUR":        { x: 33, y: 27 },
+  "WOLVERHAMPTON WANDERERS":  { x: 31, y: 26 },
+  "CELTIC FC":                { x: 28, y: 14 },
+  "RANGERS FC":               { x: 28, y: 13 },
+  "SHAMROCK ROVERS":          { x: 24, y: 24 },
+  "FC PORTO":                 { x: 16, y: 55 },
+  "FC BARCELONA":             { x: 25, y: 52 },
+  "REAL MADRID":              { x: 22, y: 54 },
+  "ATLÉTICO MADRID":          { x: 21, y: 55 },
+  "SEVILLA FC":               { x: 19, y: 60 },
+  "REAL BETIS":               { x: 19, y: 61 },
+  "ATHLETIC CLUB":            { x: 22, y: 50 },
+  "AJ AUXERRE":               { x: 34, y: 42 },
+  "AS MONACO":                { x: 38, y: 50 },
+  "PARIS SAINT-GERMAIN":      { x: 33, y: 38 },
+  "AJAX":                     { x: 39, y: 25 },
+  "FEYENOORD":                { x: 38, y: 26 },
+  "PSV EINDHOVEN":            { x: 39, y: 27 },
+  "BORUSSIA DORTMUND":        { x: 43, y: 28 },
+  "SCHALKE 04":               { x: 42, y: 28 },
+  "BAYERN MÜNCHEN":           { x: 46, y: 35 },
+  "FC KÖLN":                  { x: 41, y: 30 },
+  "JUVENTUS":                 { x: 42, y: 48 },
+  "AC MILAN":                 { x: 43, y: 46 },
+  "INTER MILAN":              { x: 43, y: 47 },
+  "SSC NAPOLI":               { x: 47, y: 56 },
+  "SS LAZIO":                 { x: 46, y: 52 },
+  "AS ROMA":                  { x: 46, y: 53 },
+  "ATALANTA BC":              { x: 44, y: 46 },
+  "PARMA CALCIO":             { x: 43, y: 47 },
+  "VENEZIA FC":               { x: 45, y: 45 },
+  "UC SAMPDORIA":             { x: 41, y: 49 },
+  "CAGLIARI CALCIO":          { x: 42, y: 58 },
+  "LR VICENZA":               { x: 45, y: 45 },
+  "SSC BARI":                 { x: 50, y: 57 },
+  "PERUGIA CALCIO":           { x: 46, y: 51 },
+  "SLAVIA PRAHA":             { x: 50, y: 30 },
+  "LEGIA WARSAW":             { x: 54, y: 26 },
+  "GNK DINAMO ZAGREB":        { x: 50, y: 42 },
+  "HAJDUK SPLIT":             { x: 50, y: 46 },
+  "NK OLIMPIJA LJUBLJANA":    { x: 49, y: 41 },
+  "NK MARIBOR":               { x: 50, y: 40 },
+  "PANATHINAIKOS":            { x: 56, y: 64 },
+  "OLYMPIACOS":               { x: 57, y: 65 },
+  "PAOK":                     { x: 58, y: 61 },
+  "GALATASARAY":              { x: 68, y: 60 },
+  "FENERBAHÇE":               { x: 69, y: 60 },
+};
+
+function EuropeMapPage({ onGoClub, onGoWorldMap }) {
+  const [activePin, setActivePin] = useState(null);
+  const euClubs = useMemo(() => clubsData.filter((c) => EUROPEAN_COUNTRIES.includes(c.country)), []);
+
+  return (
+    <div style={{ maxWidth: "1080px", margin: "0 auto", padding: "20px 20px 40px" }}>
+      <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "18px", flexWrap: "wrap" }}>
+        <button onClick={onGoWorldMap} className="ng-app" style={{ fontFamily: FONT_DISPLAY, fontWeight: 700, fontSize: "13px", color: "#FFFFFF", background: "#2F86D6", border: "2px solid #10243E", borderRadius: "12px", padding: "7px 14px", cursor: "pointer", boxShadow: "0 3px 0 rgba(16,36,62,0.6)", display: "inline-flex", alignItems: "center", gap: "6px" }}>← Svet</button>
+        <h1 className="ng-app" style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: "clamp(22px, 3vw, 34px)", color: "#FFFFFF", textShadow: "0 2px 0 rgba(16,36,62,0.5)" }}>Evropa · {euClubs.length} klubov</h1>
+      </div>
+      <div style={{ position: "relative", borderRadius: "20px", overflow: "hidden", border: "3px solid #10243E", boxShadow: "0 6px 0 rgba(16,36,62,0.2)" }}>
+        <img src={mapEurope} alt="Zemljevid Evrope" style={{ width: "100%", display: "block" }} />
+        {euClubs.map((club) => {
+          const pin = EUROPE_PINS[club.name];
+          if (!pin) return null;
+          const isActive = activePin === club.name;
+          const crestImg = club.crest ?  : null;
+          return (
+            <div key={club.name} style={{ position: "absolute", left: , top: , transform: "translate(-50%, -100%)", zIndex: isActive ? 10 : 3 }}>
+              {isActive && (
+                <div onClick={() => onGoClub(club.name)} style={{ position: "absolute", bottom: "calc(100% + 6px)", left: "50%", transform: "translateX(-50%)", background: "#FFFDF7", border: "2px solid #10243E", borderRadius: "14px", padding: "10px 12px", display: "flex", alignItems: "center", gap: "10px", cursor: "pointer", boxShadow: "0 4px 0 rgba(16,36,62,0.25)", whiteSpace: "nowrap", minWidth: "160px", zIndex: 20 }}>
+                  {crestImg && <img src={crestImg} alt="" style={{ width: "32px", height: "32px", objectFit: "contain", flexShrink: 0 }} />}
+                  <div>
+                    <div className="ng-app" style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: "12px", color: INK }}>{club.name}</div>
+                    <div className="ng-app" style={{ fontFamily: FONT_BODY, fontWeight: 700, fontSize: "11px", color:  }}>{club.city} · {club.founded_year}</div>
+                    <div className="ng-app" style={{ fontFamily: FONT_DISPLAY, fontWeight: 700, fontSize: "11px", color: "#2FAE60", marginTop: "3px" }}>Odkrij →</div>
+                  </div>
+                  <div style={{ position: "absolute", top: "100%", left: "50%", transform: "translateX(-50%)", borderLeft: "6px solid transparent", borderRight: "6px solid transparent", borderTop: "6px solid #10243E" }} />
+                </div>
+              )}
+              <button onClick={() => setActivePin(isActive ? null : club.name)} style={{ width: "22px", height: "22px", borderRadius: "50%", background: isActive ? "#FFD23F" : (club.primaryColor || "#2F86D6"), border: , boxShadow: "0 2px 4px rgba(0,0,0,0.35)", cursor: "pointer", padding: 0, display: "flex", alignItems: "center", justifyContent: "center", transform: isActive ? "scale(1.3)" : "scale(1)", transition: "transform 100ms ease" }}>
+                {crestImg && <img src={crestImg} alt="" style={{ width: "14px", height: "14px", objectFit: "contain" }} />}
+              </button>
+            </div>
+          );
+        })}
+      </div>
+      <p className="ng-app" style={{ fontFamily: FONT_BODY, fontWeight: 700, fontSize: "12px", color: "rgba(255,255,255,0.7)", marginTop: "10px", textAlign: "center" }}>Tapni pin za informacije o klubu</p>
+    </div>
+  );
+}
+
+/* ─── APP ROOT ────────────────────────────────────────────────── */
+
 export default function App() {
   const [page, setPage] = useState("home");
   const [selectedClub, setSelectedClub] = useState(null);
 
-  const goToClub = (name) => { setSelectedClub(name); setPage("detail"); };
-  const goHome = () => { setPage("home"); setSelectedClub(null); };
-  const goClubs = () => { setPage("clubs"); setSelectedClub(null); };
+  const goToClub = (name) => { setSelectedClub(name); setPage("detail"); window.scrollTo(0, 0); };
+  const goHome = () => { setPage("home"); setSelectedClub(null); window.scrollTo(0, 0); };
+  const goClubs = () => { setPage("clubs"); window.scrollTo(0, 0); };
+  const goMap = () => { setPage("map-world"); window.scrollTo(0, 0); };
+  const goEuropeMap = () => { setPage("map-europe"); window.scrollTo(0, 0); };
+  const goWorldMap = () => { setPage("map-world"); window.scrollTo(0, 0); };
 
   return (
-    <PageShell onHome={goHome} onGoClubs={goClubs} page={page}>
-      {page === "home" && <HomePage onGoClubs={goClubs} onGoClub={goToClub} />}
-      {page === "clubs" && <ClubsPage onSelectClub={goToClub} />}
-      {page === "detail" && <DetailPage clubName={selectedClub} />}
+    <PageShell onHome={goHome} onGoClubs={goClubs} onGoMap={goMap} page={page}>
+      {page === "home"       && <HomePage onGoClubs={goClubs} onGoClub={goToClub} onGoMap={goMap} />}
+      {page === "clubs"      && <ClubsPage onSelectClub={goToClub} />}
+      {page === "detail"     && <DetailPage clubName={selectedClub} />}
+      {page === "map-world"  && <WorldMapPage onGoEurope={goEuropeMap} />}
+      {page === "map-europe" && <EuropeMapPage onGoClub={goToClub} onGoWorldMap={goWorldMap} />}
     </PageShell>
   );
 }
