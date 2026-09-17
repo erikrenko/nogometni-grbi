@@ -234,7 +234,7 @@ function ClubsPage({ onSelectClub }) {
         </div>
       </div>
 
-      <div className="clubs-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(190px, 1fr))", gap: "16px" }}>
+      <div className="clubs-grid" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "16px" }}>
         {filtered.map((club) => {
           const crestImg = club.crest ? `/grbi/${club.crest}` : null;
           return (
